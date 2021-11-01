@@ -20,7 +20,7 @@ function ControlledCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
-          <img className="d-block w-100" height={646} src={image} alt="First slide" />
+          <img className="d-block w-100" height={645} src={image} alt="First slide" />
         </Carousel.Item>
       ))}
     </Carousel>
