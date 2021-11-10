@@ -20,7 +20,7 @@ const MenuNav= () => {
                                 <Nav.Item>
                                     <Nav.Link href="#">INICIO</Nav.Link>
                                 </Nav.Item>
-                                <NavDropdown href="#" title="¿QUIENES SOMOS?" id="nav-dropdown">
+                                <NavDropdown href="#" title="¿QUIÉNES SOMOS?" id="nav-dropdown">
                                     <NavDropdown.Item href="#">NOSOTROS</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#">EQUIPO/AUTORIDADES</NavDropdown.Item>
@@ -64,7 +64,7 @@ const MenuNav= () => {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#">CASITA LIBERTAD</NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown href="#" title="COMO COLABORAR" id="nav-dropdown">
+                                <NavDropdown href="#" title="CÓMO COLABORAR" id="nav-dropdown">
                                     <NavDropdown.Item href="#">DONACIÓN MONETARIA</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#">SER VOLUNTARIO</NavDropdown.Item>
