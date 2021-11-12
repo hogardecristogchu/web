@@ -1,56 +1,39 @@
-import React from 'react';
-import MapEpi from './MapEpi';
+import React from "react";
+import CardDispositivos from "./CardDispositivos";
+import Testimonios from "./Testimonios";
 
 const CasaMunilla = () => {
-    return (
-        <>
-            <div className="container my-5">
-                <div className="row mt-5">
-                    <div className="col-12 col-md-6">
-                        <img src="/dispositivos/CB-Casa-Munilla.jpg" className="mt-2 img-fluid" alt="voluntarios" />
-                        <MapEpi />
-                    </div>
-                    <div className="col-12 col-md-6">
-                        <div className="row title mt-2"><h2>Casa Munilla</h2></div>
-                        <div className="row mb-4"><h4>Acompañamos la totalidad de cada vida</h4></div>
-                        <div className="row"><p>Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Entre los objetivos que persigue el centro barrial, como primera definición, es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida, compuesto por un equipo de personas comprometidas. Se acompaña “la vida” y no sólo el problema de alguien con consumo problemático de sustancias. También se acercan las personas que están solas, huérfanas, desoladas, enfermas y, además, con la salud
-                        comprometida por el consumo.</p></div>
-                        <div className="row mb-3"><p>Esto significa abrazar la complejidad estableciendo necesariamente relaciones con otras instituciones de la ciudad o bien del país.
-                        Son diversas las necesidades de las personas que asisten a “Asunción de María”, entendiéndose por ellas, alimentación, vivienda, salud física y mental, trabajo, educación, asistencia jurídica, etc. Para responder a ellas, se establecen vínculos con distintas organizaciones estatales o de la sociedad civil que ayudan a cubrir en mayor o menor medida las carencias de quienes se acompaña.
-                        Lo central en la propuesta es el sentido de pertenencia a la comunidad-familia del Centro Barrial y el cuidado y acompañamiento hacia los otros que asume cada miembro que llega a nuestro dispositivo.
-                        .</p></div>
-                    </div>
-                </div>
-            </div>
-            <div className="container my-5">
-                <div className="row title"><h2>Testimonios</h2></div>
-                <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Marcelo, 28 años</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Juana, 53 años</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row mt-1">
-                    <div className="card">
-                        <div className="card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Mariana, 23 años</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
+  const testimonios = [
+    {
+      testimonio:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      testigo: "Marcelo, 28 años",
+    },
+    {
+      testimonio:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      testigo: "Juana, 53 años",
+    },
+    {
+      testimonio:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+      testigo: "Mariana, 23 años",
+    },
+  ];
+  return (
+    <>
+      <CardDispositivos
+        imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
+        titulo={"Casa Munilla"}
+        subtitulo={"Acompañamos la totalidad de cada vida"}
+        texto={
+          "Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Entre los objetivos que persigue el centro barrial, como primera definición, es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida, compuesto por un equipo de personas comprometidas. Se acompaña “la vida” y no sólo el problema de alguien con consumo problemático de sustancias. También se acercan las personas que están solas, huérfanas, desoladas, enfermas y, además, con la salud comprometida por el consumo. Esto significa abrazar la complejidad estableciendo necesariamente relaciones con otras instituciones de la ciudad o bien del país.Son diversas las necesidades de las personas que asisten a “Asunción de María”, entendiéndose por ellas, alimentación, vivienda, salud física y mental, trabajo, educación, asistencia jurídica, etc. Para responder a ellas, se establecen vínculos con distintas organizaciones estatales o de la sociedad civil que ayudan a cubrir en mayor o menor medida las carencias de quienes se acompaña.Lo central en la propuesta es el sentido de pertenencia a la comunidad-familia del Centro Barrial y el cuidado y acompañamiento hacia los otros que asume cada miembro que llega a nuestro dispositivo."
+        }
+        source={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.6714722240044!2d-58.54901098525165!3d-33.01243588255075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b007f916e24057%3A0x867de8d53a6ff365!2sGervasio%20Mendez%20%26%20Calle%20Bomberos%20Voluntarios%2C%20Gualeguaych%C3%BA%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1636745145279!5m2!1ses-419!2sar"}
+      />
+      <Testimonios testimonios={testimonios}></Testimonios>
+    </>
+  );
+};
 
-export default CasaMunilla
+export default CasaMunilla;
