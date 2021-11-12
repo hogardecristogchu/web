@@ -4,10 +4,10 @@ import React from 'react'
 const CardsCausas = () => {
     return (
         <>
-            <h2 className="text-center mt-3">Nuestras principales causas</h2>
-            <h4 className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+            <h2 className="text-center text-title">Nuestras principales causas</h2>
+            <h4 className="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
             <div className="container mt-3 d-flex flex-wrap justify-content-evenly">
-                <div className="card my-3 mx-3" style={{ width: '20rem' }}>
+            <div className="card my-3 mx-3" style={{ width: '20rem' }}>
                     <div className="card-body">
                         <h5 className="card-title text-center">Consumo problemático</h5>
                         <div className="text-center">
@@ -47,7 +47,7 @@ const CardsCausas = () => {
                     <div className="card-body">
                         <h5 className="card-title text-center">Empoderamiento femenino</h5>
                         <div className="text-center">
-                            <img src="/cards-icons/ef.png" className="card-img-top mt-3" alt="log" style={{ width: '6rem' }}/>
+                            <img src="/cards-icons/ef.png" className="card-img-top mt-3" alt="log" style={{ width: '5rem' }}/>
                         </div>
                         <p className="card-text mt-3">Empoderamiento de  mujeres que atraviesan situaciones de violencia.</p>
                     </div>
@@ -92,6 +92,5 @@ const CardsCausas = () => {
         </>
     )
 }
-
 
 export default CardsCausas
