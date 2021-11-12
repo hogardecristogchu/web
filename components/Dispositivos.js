@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 
 const Dispositivos = () => {
     return (
         <>
-            <h2 className="text-center"> Dispositivos</h2>
+            <div className="title"><h2 className="text-center"> Dispositivos</h2></div>
             <div className="container text-center">
                 <h3 className="mt-3">Centros Barriales</h3>
                 <p className="mt-3">El centro barrial es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida que recibe a personas en contextos de exclusión social.  Lo característico de nuestra propuesta es el sentido de pertenencia a la comunidad-familia del Hogar de Cristo y el cuidado y acompañamiento que reciben cada una de las personas que llegan al centro.
