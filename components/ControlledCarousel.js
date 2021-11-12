@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button'
 
 
 const images = [
@@ -21,7 +22,16 @@ function ControlledCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {images.map((image, index) => (
         <Carousel.Item key={index}>
-          <img className="d-block w-100" height={645} src={image} alt="First slide" />
+          <div data-overlay="1">
+            <img className="d-block w-100" height={645} src={image}  alt="First slide" />
+          </div>
+          <Carousel.Caption>
+            <h3 className="titulo-caption">HOGAR DE CRISTO GUALEGUAYCHÚ</h3>
+            <h6 className="subtitulo-caption">“RECIBIR LA VIDA COMO VIENE”</h6>
+            <p className="text-caption">“Una respuesta integral a la exclusión”</p>
+            <Button className="boton-slider">CONOCENOS</Button>
+            <Button className="boton-slider-2">COLABORÁ CON NOSOTROS</Button>
+          </Carousel.Caption>
         </Carousel.Item>
       ))}
     </Carousel>
