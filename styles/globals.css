@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.ml-2{
+  margin-left: 0.6rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -70,17 +74,11 @@ a {
   color: white;
 }
 
-.boton-slider:hover{
+.boton-slider:hover, .boton-slider:focus{
   background-color: #448508 !important;
   border: none;
   box-shadow: none;
-  color: white;
-}
-
-.boton-slider:focus{
-  background-color: #448508 !important;
-  border: none;
-  box-shadow: none;
+  box-shadow: 0 0 0 0 !important;
   color: white;
 }
 
@@ -92,16 +90,11 @@ a {
   color: white;
 }
 
-.boton-slider-2:hover{
+.boton-slider-2:hover, .boton-slider-2:focus{
   background-color: #c79202 !important;
   border: none;
   box-shadow: none;
-  color: white;
-}
-.boton-slider-2:focus{
-  background-color: #c79202 !important;
-  border: none;
-  box-shadow: none;
+  box-shadow: 0 0 0 0 !important;
   color: white;
 }
 
