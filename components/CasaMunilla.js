@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
+import MapEpi from './MapEpi';
 
 const CasaMunilla = () => {
     return (
         <>
             <div className="container my-5">
                 <div className="row mt-5">
-                    <div className="col-12">
-                        <div className="text-center row title"><h2>Casa Munilla</h2></div>
-                        <div className="text-center row mb-4"><h4>Acompañamos la totalidad de cada vida</h4></div>
-                    </div>
                     <div className="col-12 col-md-6">
                         <img src="/dispositivos/CB-Casa-Munilla.jpg" className="mt-2 img-fluid" alt="voluntarios" />
+                        <MapEpi />
                     </div>
                     <div className="col-12 col-md-6">
+                        <div className="row title mt-2"><h2>Casa Munilla</h2></div>
+                        <div className="row mb-4"><h4>Acompañamos la totalidad de cada vida</h4></div>
                         <div className="row"><p>Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Entre los objetivos que persigue el centro barrial, como primera definición, es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida, compuesto por un equipo de personas comprometidas. Se acompaña “la vida” y no sólo el problema de alguien con consumo problemático de sustancias. También se acercan las personas que están solas, huérfanas, desoladas, enfermas y, además, con la salud
                         comprometida por el consumo.</p></div>
                         <div className="row mb-3"><p>Esto significa abrazar la complejidad estableciendo necesariamente relaciones con otras instituciones de la ciudad o bien del país.
