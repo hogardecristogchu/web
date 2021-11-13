@@ -7,6 +7,7 @@ const CardDispositivos = ({
   titulo,
   subtitulo,
   texto,
+  textoDos,
   textButton = "",
   source,
 }) => {
@@ -27,6 +28,7 @@ const CardDispositivos = ({
             </div>
             <div className="row">
               <p>{texto} </p>
+              <p>{textoDos} </p>
             </div>
             {textButton && (
               <Button className="boton-slider">

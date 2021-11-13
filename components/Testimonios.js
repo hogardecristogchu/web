@@ -7,8 +7,9 @@ const Testimonios = ({ testimonios }) => {
       <div className="row title">
         <h2>Testimonios</h2>
       </div>
-      {testimonios.map((testimonio) => (
+      {testimonios.map((testimonio, index) => (
         <Testimonio
+          key={index}
           testimonio={testimonio.testimonio}
           testigo={testimonio.testigo}
         />
