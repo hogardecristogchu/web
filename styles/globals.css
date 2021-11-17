@@ -117,9 +117,9 @@ a {
 }
 
 #top {
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  background-color: black;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: black !important;
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
@@ -133,6 +133,10 @@ a {
 
 .main-menu {
   padding-right: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  margin-top: 1.2rem;
 }
 
 .nav-item a:hover {
@@ -256,4 +260,14 @@ a {
 
 .left-caret:after {
   border-left: 5px solid gray;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(251 251 251 / 90%);
+}
+
+@media (max-width: 950px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-top: 0.2rem !important;
+  }
 }
