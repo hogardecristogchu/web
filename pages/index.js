@@ -35,7 +35,7 @@ function HomePage() {
         <ElRefugio />
         <BrotaServicios />
         <BrotaProductos />
-        <CasitaLibertad />qa
+        <CasitaLibertad />
         <DonacionMonetaria/>
         <Blog/>
       </div>
