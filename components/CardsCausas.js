@@ -5,7 +5,6 @@ const CardsCausas = () => {
     return (
         <>
             <h2 className="text-center text-title">Nuestras principales causas</h2>
-            <h4 className="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
             <div className="container mt-3 d-flex flex-wrap justify-content-evenly">
             <div className="card my-3 mx-3" style={{ width: '20rem' }}>
                     <div className="card-body">

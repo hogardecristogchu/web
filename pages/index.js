@@ -13,6 +13,8 @@ import ElRefugio from "../components/ElRefugio";
 import BrotaServicios from "../components/BrotaServicios";
 import BrotaProductos from "../components/BrotaProductos";
 import CasitaLibertad from "../components/CasitaLibertad";
+import Blog from "../components/Blog";
+import DonacionMonetaria from "../components/DonacionMonetaria";
 
 
 function HomePage() {
@@ -34,6 +36,8 @@ function HomePage() {
         <BrotaServicios />
         <BrotaProductos />
         <CasitaLibertad />
+        <DonacionMonetaria/>
+        <Blog/>
       </div>
     </>
   );
