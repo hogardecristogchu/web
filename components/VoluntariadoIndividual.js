@@ -1,24 +1,8 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 
-const VoluntariadoIndividual = ({onClick}) => {
-  const [state, setState] = useState({
-    name: "",
-    edad: "",
-    city: "",
-    provincia: "",
-    celular: "",
-    email: "",
-    motivo: "",
-    habilidades: ""
-  });
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
+const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
+
 
   return (
     <Form>
@@ -31,7 +15,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           onChange={handleChange}
           name="name"
           placeholder="Nombre y Apellido"
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>Edad</Form.Label>
         <Form.Control
           value={state.edad}
@@ -39,6 +25,7 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="edad"
           type="age"
           placeholder="Edad"
+          disabled={disabled}
         />
         <Form.Text className="text-muted"> Mayor de 16 años.</Form.Text>
         <br />
@@ -49,7 +36,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="city"
           type="city"
           placeholder="Ciudad"
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>Provincia</Form.Label>
         <Form.Control
           value={state.provincia}
@@ -57,7 +46,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="provincia"
           type="place"
           placeholder="Provincia"
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>Celular</Form.Label>
         <Form.Control
           value={state.celular}
@@ -65,7 +56,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="celular"
           type="phone"
           placeholder="Celular"
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>Email </Form.Label>
         <Form.Control
           value={state.email}
@@ -73,7 +66,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="email"
           type="email"
           placeholder="email"
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>
           {" "}
           Contanos que te motivó para ser voluntario en el Hogar de Cristo:{" "}
@@ -84,7 +79,9 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="motivo"
           type="text"
           placeholder="contanos..."
+          disabled={disabled}
         />
+        <br/>
         <Form.Label>
           ¿Qué podes ofrecernos? (tiempo, profesión, habilidad, escucha, etc.):{" "}
         </Form.Label>
@@ -94,6 +91,7 @@ const VoluntariadoIndividual = ({onClick}) => {
           name="habilidades"
           type="text"
           placeholder="contanos..."
+          disabled={disabled}
         />
       </Form.Group>
     </Form>
