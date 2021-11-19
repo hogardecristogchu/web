@@ -32,7 +32,7 @@ const Blog = () => {
         return () => (mounted = false);
     }, []);
     return (
-        <>
+        <div className="container">
             <h2 className="text-center text-title">Blog</h2>
 
             {posts.map((post, index) => (
@@ -45,7 +45,7 @@ const Blog = () => {
                     </div>
                 </div>
             ))}
-        </>
+        </div>
     )
 }
 

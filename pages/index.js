@@ -17,7 +17,8 @@ import ColaborarVoluntariado from "../components/ColaborarVoluntariado";
 import Blog from "../components/Blog";
 import DonacionMonetaria from "../components/DonacionMonetaria";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import ContactoBrota from "../components/ContactoBrota";
+import FooterCompleto from "../components/FooterCompleto";
 
 
 function HomePage() {
@@ -42,6 +43,11 @@ function HomePage() {
         <DonacionMonetaria/>
         <ColaborarVoluntariado/>
         <Blog/>
+        <DonacionMonetaria />
+        <Blog />
+        <ContactoBrota titulo="Contratar Servicios Brota" />
+        <ContactoBrota titulo="Comprar productos Brota" />
+        <FooterCompleto />
       </div>
     </>
   );
