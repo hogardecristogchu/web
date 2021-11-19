@@ -15,6 +15,8 @@ import BrotaProductos from "../components/BrotaProductos";
 import CasitaLibertad from "../components/CasitaLibertad";
 import Blog from "../components/Blog";
 import DonacionMonetaria from "../components/DonacionMonetaria";
+import ContactoBrota from "../components/ContactoBrota";
+import FooterCompleto from "../components/FooterCompleto";
 
 
 function HomePage() {
@@ -36,8 +38,11 @@ function HomePage() {
         <BrotaServicios />
         <BrotaProductos />
         <CasitaLibertad />
-        <DonacionMonetaria/>
-        <Blog/>
+        <DonacionMonetaria />
+        <Blog />
+        <ContactoBrota titulo="Contratar Servicios Brota" />
+        <ContactoBrota titulo="Comprar productos Brota" />
+        <FooterCompleto />
       </div>
     </>
   );
