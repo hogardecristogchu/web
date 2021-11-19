@@ -266,6 +266,14 @@ a {
   color: rgb(251 251 251 / 90%);
 }
 
+
+.img-thumbnail-center{
+  width: 100%;
+  margin-left: 50%;
+  margin-bottom: 7%;
+}
+
+@media (max-width: 950px) {
 .card-contacto {
   background-color: #fff !important;
 }
@@ -374,6 +382,7 @@ a {
 }
 
 @media (max-width: 991px) {
+
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     margin-top: 0.2rem !important;
   }
