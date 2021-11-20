@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import MapDispositivos from "./MapDispositivos";
 import Button from "react-bootstrap/Button";
 
@@ -11,6 +11,7 @@ const CardDispositivos = ({
   textButton = "",
   source,
 }) => {
+  const [show, setShow] = useState(true);
   return (
     <div>
       <div className="container my-5">
@@ -28,7 +29,20 @@ const CardDispositivos = ({
             </div>
             <div className="row">
               <p>{texto} </p>
-              <p>{textoDos} </p>
+              <button className="btn btn-dispositivos"
+                type="button"
+                onClick={() => {
+                  setShow(!show);
+                }}
+                >
+                LEER MAS {show ? '' : ''}
+              </button>
+
+              {show ? (
+                <div></div>
+              ) : (
+                <div><p>{textoDos} </p></div>
+              )}
             </div>
             {textButton && (
               <Button className="boton-slider">

@@ -40,9 +40,7 @@ function HomePage() {
         <BrotaServicios />
         <BrotaProductos />
         <CasitaLibertad />
-        <DonacionMonetaria/>
         <ColaborarVoluntariado/>
-        <Blog/>
         <DonacionMonetaria />
         <Blog />
         <ContactoBrota titulo="Contratar Servicios Brota" />
