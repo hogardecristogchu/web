@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CardDispositivos from "./CardDispositivos";
 import Testimonios from "./Testimonios";
 
 const CorazonDeMaria = () => {
-  const [show, setShow] = useState(true);
-
   const testimonios = [
     {
       testimonio:
