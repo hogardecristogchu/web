@@ -367,9 +367,6 @@ a {
   margin-right: 8px;
 }
 
-.img-galeria:hover {
-  background-color: tomato;
-}
 
 .pl-2 {
   padding-left: 2rem;
@@ -377,6 +374,23 @@ a {
 
 .ml-2 {
   margin-left: 2rem;
+}
+
+.btn-dispositivos {
+  color: white;
+  background-color: #fcba02;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
+  margin-left: calc(var(--bs-gutter-x) * .5);
+  font-weight: 500;
+  width: auto;
+}
+
+.btn-dispositivos:hover {
+  color: white;
+  background-color: #c79202;
 }
 
 @media (max-width: 991px) {
