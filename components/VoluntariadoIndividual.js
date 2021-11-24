@@ -6,7 +6,6 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
 
   return (
     <Form>
-      <h4>Voluntariado individual</h4>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Nombre y Apellido</Form.Label>
         <Form.Control
