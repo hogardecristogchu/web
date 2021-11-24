@@ -1,3 +1,4 @@
+import React from 'react';
 import ControlledCarousel from "../components/ControlledCarousel";
 import CardsCausas from "../components/CardsCausas";
 import Voluntariado from "../components/Voluntariado";
@@ -20,10 +21,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactoBrota from "../components/ContactoBrota";
 import FooterCompleto from "../components/FooterCompleto";
 
-
 function HomePage() {
   return (
     <>
+
       <MenuNav />
       <div>
         <ControlledCarousel></ControlledCarousel>
