@@ -26,11 +26,9 @@ const CasaMunilla = () => {
         imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
         titulo={"Casa Munilla"}
         subtitulo={"Acompañamos la totalidad de cada vida"}
-        texto={
-          "Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Entre los objetivos que persigue el centro barrial, como primera definición, es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida, compuesto por un equipo de personas comprometidas."
-        }
+        texto={"Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Abrió sus puertas como centro de día a finales del 2020. Este dispositivo nace a partir de un conflicto vecinal, y crece ante la necesidad de ofrecer un espacio de convivencia y contención dentro del barrio."}
         textoDos={
-          "Se acompaña “la vida” y no sólo el problema de alguien con consumo problemático de sustancias. También se acercan las personas que están solas, huérfanas, desoladas, enfermas y, además, con la salud comprometida por el consumo. Esto significa abrazar la complejidad estableciendo necesariamente relaciones con otras instituciones de la ciudad o bien del país. Son diversas las necesidades de las personas que asisten a Casa Munilla. Para responder a ellas, se establecen vínculos con distintas organizaciones estatales o de la sociedad civil que ayudan a cubrir en mayor o menor medida las carencias de quienes se acompaña."
+          "En el mismo se acompañan a hombres, mujeres y niños y se ofrecen diversas actividades como ser: actividades deportivas, talleres de oficio, espacios individuales de escucha, asesoramiento legal, espacios terapéuticos y espacios de juegos y estimulación temprana."
         }
       />
       <Testimonios testimonios={testimonios}></Testimonios>
