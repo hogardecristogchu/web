@@ -35,7 +35,7 @@ const CardDispositivos = ({
                   setShow(!show);
                 }}
                 >
-                LEER MAS {show ? '' : ''}
+                LEER MÁS {show ? '' : ''}
               </button>
 
               {show ? (

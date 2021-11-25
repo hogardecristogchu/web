@@ -393,6 +393,33 @@ a {
   background-color: #c79202;
 }
 
+.card-contactos {
+  flex: 1 1 auto;
+  padding: 3rem 0.8rem;
+  background-color: #f3f2f2;
+  border-radius: 0.5rem;
+}
+
+.title-contactos {
+  font-weight: 700;
+  color: #62bc0f;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dotted rgb(94 94 94 / 24%);
+}
+
+.text-contacto {
+  color: #303030;
+  margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.contacto-icon {
+  margin-right: 10px;
+  color: #303030;
+}
+
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     margin-top: 0.2rem !important;
