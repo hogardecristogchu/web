@@ -396,8 +396,9 @@ a {
 .card-contactos {
   flex: 1 1 auto;
   padding: 3rem 0.8rem;
-  background-color: #f3f2f2;
+  background-color: #ffffff;
   border-radius: 0.5rem;
+  border: 1px solid #e5e5e5;
 }
 
 .title-contactos {
