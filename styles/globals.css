@@ -412,6 +412,11 @@ a {
   color: #303030;
 }
 
+.width-height{
+  width: 430px;
+  height: 320px;
+}
+
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     margin-top: 0.2rem !important;
