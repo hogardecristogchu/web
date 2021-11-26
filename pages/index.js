@@ -20,6 +20,8 @@ import DonacionMonetaria from "../components/DonacionMonetaria";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactoBrota from "../components/ContactoBrota";
 import FooterCompleto from "../components/FooterCompleto";
+import Equipo from '../components/Equipo';
+import Contacto from '../components/Contacto';
 
 function HomePage() {
   return (
@@ -30,6 +32,7 @@ function HomePage() {
         <ControlledCarousel></ControlledCarousel>
         <CardsCausas />
         <Voluntariado />
+        <Equipo />
         <Dispositivos />
         <Maps />
         <Nazareth/>
@@ -46,6 +49,7 @@ function HomePage() {
         <Blog />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
+        <Contacto />
         <FooterCompleto />
       </div>
     </>

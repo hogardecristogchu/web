@@ -27,8 +27,8 @@ const AsuncionDeMaria = () => {
         imagen={"/dispositivos/Asuncion.jpg"}
         titulo={"ASUNCIÓN DE MARÍA"}
         subtitulo={"Loren ipsum"}
-        texto={"Asunción de María se ubica en el Barrio 338 de nuestra ciudad. Abrió sus puertas como centro de día en agosto de 2018. Desde este dispositivo se acompañan a personas con consumo problemático y lo que se busca es primeriar en el amor, no esperar a que vengan al centro barrial sino salir al encuentro y una vez generado el vínculo, ofrecer caminos de recuperación y desarrollo que se adapten al contexto y posibilidades de la persona. "}
-        textoDos={"Este espacio cuenta con talleres de musicoterapia, básquet, taller de manualidades, grupo de escucha, espiritualidad, entre otras.Entre los objetivos que persigue el centro barrial, como primera definición, es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida, compuesto por un equipo de personas comprometidas. Se acompaña “la vida” y no sólo el problema de alguien con consumo problemático de sustancias. También se acercan las personas que están solas, huérfanas, desoladas, enfermas y, además, con la salud comprometida por el consumo."}
+        texto={"Asunción de María se ubica en el Barrio 338 de la ciudad de Gualeguaychú y nació desde la necesidad de dar una respuesta al problema del consumo de sustancias en la zona oeste de la ciudad. Abrió sus puertas como Centro de Día en agosto de 2018."}
+        textoDos={"En Asunción de María se acompañan a personas, tanto a hombres y mujeres, como a niños, en contextos de consumo problemático. Este espacio cuenta con talleres de musicoterapia, básquet, taller de manualidades, grupo de escucha, espiritualidad, asesoramiento legal, entre otros. Y para los niños espacios de juegos y estimulación temprana. Además, este dispositivo cuenta con espacios deportivos y un amplio parque para poder realizar actividades sociales durante todo el año."}
       />
       <Testimonios testimonios={testimonios}></Testimonios>
     </>
