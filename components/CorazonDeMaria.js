@@ -1,5 +1,5 @@
 import React from 'react';
-import CardDispositivos from "./CardDispositivos";
+import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 import Testimonios from "./Testimonios";
 
 const CorazonDeMaria = () => {
@@ -22,7 +22,7 @@ const CorazonDeMaria = () => {
   ];
   return (
     <>
-      <CardDispositivos
+      <CardDispositivosSinMapa
         imagen={"/dispositivos/CorazonDeMaria.jpg"}
         titulo={"CORAZÓN DE MARÍA"}
         subtitulo={"Loren ipsum"}

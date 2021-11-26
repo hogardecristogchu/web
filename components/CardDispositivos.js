@@ -14,7 +14,7 @@ const CardDispositivos = ({
   const [show, setShow] = useState(true);
   return (
     <div>
-      <div className="container my-5">
+      <div className="container movil my-5">
         <div className="row mt-5">
           <div className="col-12 col-md-6">
             {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}

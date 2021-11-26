@@ -1,5 +1,5 @@
 import React from "react";
-import CardDispositivos from "./CardDispositivos";
+import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 import Testimonios from "./Testimonios";
 
 const BrotaProductos = () => {
@@ -22,7 +22,7 @@ const BrotaProductos = () => {
   ];
   return (
     <>
-      <CardDispositivos
+      <CardDispositivosSinMapa
         imagen={"/dispositivos/Brota-Productos.jpg"}
         titulo={"BROTA PRODUCTOS"}
         subtitulo={"Loren ipsum"}

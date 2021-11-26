@@ -6,7 +6,7 @@ const DonacionMonetaria = () => {
             
             <a href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true" className="" rel="noreferrer" target="_blank" style={{ color: 'black' }}>
             <h4 className="text-center">Donación Monetaria</h4>
-                <div className="container">
+                <div className="container movil">
                 <h2>Datos Personales</h2>
                 <div className="row">
                     <div className="mb-3 col-sm-4">
