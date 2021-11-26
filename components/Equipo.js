@@ -1,10 +1,10 @@
 import React from "react";
-import CardDispositivos from "./CardDispositivos";
+import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 
 const Equipo = () => {
     return (
         <>
-          <CardDispositivos
+          <CardDispositivosSinMapa
             imagen={"/dispositivos/QS-Equipo.jpg"}
             titulo={"EQUIPO "}
             texto={"Nuestro equipo está integrado por personas con vocación social. Personas diversas en términos de formación, especialización y trayectos de vida. Personas que suman sus conocimientos técnicos y, sobre todo, humanos para acompañar a otros."}

@@ -1,5 +1,5 @@
 import React from "react";
-import CardDispositivos from "./CardDispositivos";
+import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 import Testimonios from "./Testimonios";
 
 const CasitaLibertad = () => {
@@ -22,7 +22,7 @@ const CasitaLibertad = () => {
   ];
   return (
     <>
-      <CardDispositivos
+      <CardDispositivosSinMapa
         imagen={"/dispositivos/Casa-Libertad.jpg"}
         titulo={"CASITA LIBERTAD"}
         subtitulo={"Loren ipsum"}
