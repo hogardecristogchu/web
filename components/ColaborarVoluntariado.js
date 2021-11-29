@@ -61,7 +61,7 @@ const ColaborarVoluntariado = () => {
 
   return (
     <div>
-      <div className="container my-5">
+      <div className="container movil my-5">
         <h2 className="text-center">Voluntariado</h2>
         <p>
           Escribinos indicando qué tipo de voluntariado queres hacer: desde tu

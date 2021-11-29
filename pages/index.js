@@ -22,6 +22,7 @@ import ContactoBrota from "../components/ContactoBrota";
 import FooterCompleto from "../components/FooterCompleto";
 import Equipo from '../components/Equipo';
 import Contacto from '../components/Contacto';
+import FamiliaGrande from "../components/FamiliaGrande";
 
 function HomePage() {
   return (
@@ -33,6 +34,7 @@ function HomePage() {
         <CardsCausas />
         <Voluntariado />
         <Equipo />
+        <FamiliaGrande/>
         <Dispositivos />
         <Maps />
         <Nazareth/>

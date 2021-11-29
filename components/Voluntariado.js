@@ -3,7 +3,7 @@ import React from 'react'
 const Voluntariado = () => {
     return (
         <>
-            <div className="container my-5">
+            <div className="container movil my-5">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <img src="https://www.lapalabraisraelita.cl/backend/views/img/articulos/fe1f6c31eb77b.jpg" className="img-fluid" alt="voluntarios" />

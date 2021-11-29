@@ -281,23 +281,9 @@ a {
 }
 
 .card-contacto {
-  border-top-color: rgba(0, 0, 0, 0) !important;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: rgba(0, 0, 0, 0) !important;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgba(0, 0, 0, 0) !important;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgba(0, 0, 0, 0) !important;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
+  border: 1px solid #dbdbdb;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .card-contacto .card-text {
@@ -309,8 +295,8 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 10px;
+  border-bottom: 1px dotted rgb(94 94 94 / 24%);
 }
-
 
 .card-icon {
   color: #62bc0f;
@@ -393,12 +379,17 @@ a {
   background-color: #c79202;
 }
 
+.card-pcausas {
+  width: 20rem;
+}
+
 .card-contactos {
   flex: 1 1 auto;
   padding: 3rem 0.8rem;
   background-color: #ffffff;
   border-radius: 0.5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #dbdbdb;
+  width: 350px;
 }
 
 .title-contactos {
@@ -421,6 +412,11 @@ a {
   color: #303030;
 }
 
+.width-height{
+  width: 430px;
+  height: 320px;
+}
+
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     margin-top: 0.2rem !important;
@@ -434,13 +430,73 @@ a {
 @media (max-width: 767px) {
   .md-footer {
     margin-bottom: 2rem;
+    margin-left: 10%;
+    max-width: 80%;
+    margin-right: 10%;
   }
 
   .md-contacto {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-left: 10%;
+    max-width: 80%;
+    margin-right: 10%;
   }
 
   .title {
     margin-top: 2rem;
   }
+
+  .img-dispositivos iframe {
+    max-width: 99%;
+    height: 300px;
+    margin-top: 10px;
+  }
+
+  .img-thumbnail-center {
+    max-width: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+  }
+  .testimonio {
+    max-width: 94%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1rem !important;
+  }
+  .card-contacto {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .card-contactos {
+    width: 440px;
+  }
+  .movil {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .carousel {
+    margin-top: 15%;
+    position: relative;
+  }
+  .titulo-caption {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  .subtitulo-caption {
+    font-size: 1.8rem;
+  }
+  .carousel-caption {
+    margin-top: 10%;
+  }
+  .card-pcausas {
+    width: 95% !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+  }
+  .img-fluid {
+    max-width: 95%;
+    height: auto;
+}
 }

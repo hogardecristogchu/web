@@ -3,7 +3,7 @@ import Testimonio from "./Testimonio";
 
 const Testimonios = ({ testimonios }) => {
   return (
-    <div className="container my-5">
+    <div className="container movil my-5">
       <div className="row title">
         <h2>Testimonios</h2>
       </div>
