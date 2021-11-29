@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import MapDispositivos from "./MapDispositivos";
 import Button from "react-bootstrap/Button";
 
@@ -29,20 +29,16 @@ const CardDispositivos = ({
             </div>
             <div className="row">
               <p>{texto} </p>
-              <button className="btn btn-dispositivos"
+              <div>{!show && <p>{textoDos}</p>}</div>
+              <button
+                className="btn btn-dispositivos"
                 type="button"
                 onClick={() => {
                   setShow(!show);
                 }}
-                >
-                LEER MÁS {show ? '' : ''}
+              >
+                {show ? "LEER MÁS" : "LEER MENOS"}
               </button>
-
-              {show ? (
-                <div></div>
-              ) : (
-                <div><p>{textoDos} </p></div>
-              )}
             </div>
             {textButton && (
               <Button className="boton-slider">
