@@ -29,13 +29,7 @@ const CardDispositivos = ({
             </div>
             <div className="row">
               <p>{texto} </p>
-              {show ? (
-                <div></div>
-              ) : (
-                <div>
-                  <p>{textoDos} </p>
-                </div>
-              )}
+              <div>{!show && <p>{textoDos}</p>}</div>
               <button
                 className="btn btn-dispositivos"
                 type="button"
