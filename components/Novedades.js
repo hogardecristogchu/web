@@ -25,6 +25,9 @@ const Novedades = () => {
             return `${day}-${month}-${year}`
         }
     }
+    const elementsFromArray= (array, number)=>{
+        return array.slice(0, number)
+    }
     useEffect(() => {
         let mounted = true;
         fetch(
@@ -43,17 +46,19 @@ const Novedades = () => {
         <div className="container">
             <h2 className="text-center text-title">Novedades</h2>
             <div className="d-flex flex-wrap">
-                {posts.map((post, index) => (
-                    <div key={index} className="card m-3" style={{ width: '18rem' }}>
-                        <img src={post.thumbnail} className="card-img-top" alt="card-image" style={{ width: '18rem', height: '15rem' }} />
-                        <div className="card-body">
-                            <h5 className="card-title">{post.title}</h5>
-                            <p className="card-text"> {"..." + shortenText(toText(post.content), 60, 300) + "..."}</p>
-                            <p className="text-muted">{"Publicado el " + changeDay(post.pubDate)}</p>
-                            <a href={post.guid} className="btn boton-slider mb-1">Leer más</a>
+                <div className="row">
+                    {elementsFromArray(posts, 4).map((post, index) => (
+                        <div key={index} className="card m-3 col-12 col-md-5">
+                            <img src={post.thumbnail} className="card-img-top mt-3" alt="card-image"  />
+                            <div className="card-body">
+                                <h5 className="card-title">{post.title}</h5>
+                                <p className="card-text"> {"..." + shortenText(toText(post.content), 60, 300) + "..."}</p>
+                                <p className="text-muted">{"Publicado el " + changeDay(post.pubDate)}</p>
+                                <a href={post.guid} className="btn boton-slider mb-1">Leer más</a>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     )
