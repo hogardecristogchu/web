@@ -17,6 +17,7 @@ import ColaborarVoluntariado from "../components/ColaborarVoluntariado";
 import Novedades from "../components/Novedades";
 import DonacionMonetaria from "../components/DonacionMonetaria";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contacto from "../components/Contacto";
 import ContactoBrota from "../components/ContactoBrota";
 import Equipo from "../components/Equipo";
 import FamiliaGrande from "../components/FamiliaGrande";
