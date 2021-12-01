@@ -14,8 +14,8 @@ const CardDispositivos = ({
     <div>
       <div className="container movil my-5">
         <div className="row mt-5">
-        <div className="col-12 col-md-6 width-height">
-            {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}
+          <div className="col-12 col-md-6 width-height">
+              {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}
           </div>
           <div className="col-12 col-md-6">
             <div className="row title mt-2">
@@ -26,26 +26,22 @@ const CardDispositivos = ({
             </div>
             <div className="row">
               <p>{texto} </p>
-              <button className="btn btn-dispositivos"
+              <div>{!show && <p>{textoDos}</p>}</div>
+              <button
+                className="btn btn-dispositivos"
                 type="button"
                 onClick={() => {
                   setShow(!show);
                 }}
                 >
-                LEER MÁS {show ? '' : ''}
+                {show ? "LEER MÁS" : "LEER MENOS"}
               </button>
-
-              {show ? (
-                <div></div>
-              ) : (
-                <div><p>{textoDos} </p></div>
-              )}
             </div>
-            {textButton && (
-              <Button className="boton-slider">
-                COMPRAR NUESTROS PRODUCTOS
-              </Button>
-            )}
+              {textButton && (
+                <Button className="boton-slider">
+                  COMPRAR NUESTROS PRODUCTOS
+                </Button>
+              )}
           </div>
         </div>
       </div>

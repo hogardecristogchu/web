@@ -13,7 +13,7 @@ const Contacto = () => {
                     <div className="card-contactos text-center">
                         <h5 className="title-contactos">Centro Barrial Nazareth</h5>
                         <p className="text-contacto"><BsFillEnvelopeFill  className="contacto-icon" />hogarcristonazareth@gmail.com</p>
-                        <p className="text-contacto"><BsFacebook className="contacto-icon" />facebook.com/hogardecristonazareth</p>
+                        <p className="text-contacto"><BsFacebook className="contacto-icon" /><a href="facebook.com/hogardecristonazareth" rel="noreferrer" target="_blank">facebook.com/hogardecristonazareth</a></p>
                     </div>
                 </div>
                 <div className="my-3 mx-1">

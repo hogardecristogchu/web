@@ -1,7 +1,8 @@
 import React from 'react';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsFillEnvelopeFill } from "react-icons/bs";
-import { BsChatDotsFill} from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
 import Nav from 'react-bootstrap/Nav';
 
 const FooterCompleto= () => {
@@ -11,7 +12,7 @@ const FooterCompleto= () => {
                 <div className="row">
                     <div className="md-footer col-md-6 col-lg-3">
                         <h5>Nuestra mision</h5>
-                        <p>Lo central en la propuesta es el sentido de pertenencia a la comunidad-familia del Centro Barrial y el cuidado y acompañamiento hacia los otros que asume cada miembro que llega a nuestro dispositivo.</p>
+                        <p>Acompañar a personas con consumo problemático de sustancias en su camino de desarrollo integral y automía.</p>
                     </div>
                     <div className="md-none col-md-6 col-lg-3 pl-2">
                         <h5>Enlaces Rápidos</h5>
@@ -33,12 +34,12 @@ const FooterCompleto= () => {
                     </div>
                     <div className="md-contacto col-md-6 col-lg-3 pl-2">
                         <h5>Contacto</h5>
-                        <p><BsFillTelephoneFill className="footer-icon" /><span>Numero de Telefono</span></p>
-                        <p className="ml-2">011 4560 7860</p>
-                        <p><BsChatDotsFill className="footer-icon" /><span>Whatsapp</span></p>
-                        <p className="ml-2">011 6699 7860</p>
+                        <p><BsInstagram className="footer-icon" /><span>Instagram</span></p>
+                        <p className="p-correos"><a className="a-correos" href="https://www.instagram.com/hogardecristogchu/" rel="noreferrer" target="_blank">instagram.com/hogardecristogchu</a></p>
+                        <p><BsFacebook className="footer-icon" /><span>Facebook</span></p>
+                        <p className="p-correos"><a className="a-correos" href="https://www.facebook.com/hogardecristogchu" rel="noreferrer" target="_blank">facebook.com/hogardecristogchu</a></p>
                         <p><BsFillEnvelopeFill className="footer-icon" /><span>Correo Electronico</span></p>
-                        <p className="ml-2">info@emailexample.com</p>
+                        <p className="p-correos">cooperativadetrabajoehc@gmail.com</p>
                     </div>
                 </div>
             </div>

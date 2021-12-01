@@ -269,7 +269,6 @@ a {
 
 .img-thumbnail-center {
   width: 100%;
-  margin-left: 50%;
   margin-bottom: 7%;
 }
 .card-contacto {
@@ -298,6 +297,16 @@ a {
   border-bottom: 1px dotted rgb(94 94 94 / 24%);
 }
 
+.testimonio-icon {
+  text-align: center!important;
+  color: #4caf50;
+  font-size: 2rem;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .card-icon {
   color: #62bc0f;
   margin-bottom: 2px;
@@ -318,6 +327,13 @@ a {
 .footer p {
   color: grey;
   margin-bottom: 0.4rem;
+  font-size: 0.92rem;
+}
+
+.footer .p-correos {
+  color: grey;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
 }
 
 .footer .nav-link {
@@ -338,11 +354,8 @@ a {
 }
 
 .footer-icon {
-  background-color: #62bc0f;
-  color: white;
-  padding: 3px;
+  color: #62bc0f;
   font-size: 1.2rem;
-  border-radius: 13px;
   margin-bottom: 2px;
   margin-right: 10px;
 }
@@ -362,6 +375,23 @@ a {
   margin-left: 2rem;
 }
 
+.btn-ubicaciones {
+  color: white;
+  background-color: #62bc0f;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
+  margin-left: 0.9rem;
+  font-weight: 500;
+  width: auto;
+}
+
+.btn-ubicaciones:hover {
+  color: white;
+  background-color: #448508;
+}
+
 .btn-dispositivos {
   color: white;
   background-color: #fcba02;
@@ -379,6 +409,31 @@ a {
   background-color: #c79202;
 }
 
+.p-testimonio {
+  padding-top: 1rem!important;
+}
+
+.p-dispositivos {
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: black;
+}
+
+.a-correos:hover {
+ color: #cccccc;
+}
+
+.p-testigo {
+  color: #6a6a6a;
+  text-align: right;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
 .card-pcausas {
   width: 20rem;
 }
@@ -389,7 +444,9 @@ a {
   background-color: #ffffff;
   border-radius: 0.5rem;
   border: 1px solid #dbdbdb;
-  width: 350px;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title-contactos {

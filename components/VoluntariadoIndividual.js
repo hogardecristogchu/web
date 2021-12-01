@@ -7,6 +7,8 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
   return (
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
+      <div className="row pb-3">
+        <div className="col-12 col-sm-6">
         <Form.Label>Nombre y Apellido</Form.Label>
         <Form.Control
           value={state.name}
@@ -16,8 +18,9 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
           placeholder="Nombre y Apellido"
           disabled={disabled}
         />
-        <br/>
-        <Form.Label>Edad</Form.Label>
+        </div>
+        <div className="col-12 col-sm-6">
+        <Form.Label>Edad ( Mayor de 18 años.)</Form.Label>
         <Form.Control
           value={state.edad}
           onChange={handleChange}
@@ -26,61 +29,32 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
           placeholder="Edad"
           disabled={disabled}
         />
-        <Form.Text className="text-muted"> Mayor de 16 años.</Form.Text>
-        <br />
-        <Form.Label>Ciudad</Form.Label>
-        <Form.Control
-          value={state.city}
-          onChange={handleChange}
-          name="city"
-          type="city"
-          placeholder="Ciudad"
-          disabled={disabled}
-        />
-        <br/>
-        <Form.Label>Provincia</Form.Label>
-        <Form.Control
-          value={state.provincia}
-          onChange={handleChange}
-          name="provincia"
-          type="place"
-          placeholder="Provincia"
-          disabled={disabled}
-        />
-        <br/>
-        <Form.Label>Celular</Form.Label>
-        <Form.Control
-          value={state.celular}
-          onChange={handleChange}
-          name="celular"
-          type="phone"
-          placeholder="Celular"
-          disabled={disabled}
-        />
-        <br/>
-        <Form.Label>Email </Form.Label>
-        <Form.Control
-          value={state.email}
-          onChange={handleChange}
-          name="email"
-          type="email"
-          placeholder="email"
-          disabled={disabled}
-        />
-        <br/>
-        <Form.Label>
-          {" "}
-          Contanos que te motivó para ser voluntario en el Hogar de Cristo:{" "}
-        </Form.Label>
-        <Form.Control
-          value={state.motivo}
-          onChange={handleChange}
-          name="motivo"
-          type="text"
-          placeholder="contanos..."
-          disabled={disabled}
-        />
-        <br/>
+        </div>
+      </div>
+      <div className="row pb-3">
+        <div className="col-12 col-sm-6">
+          <Form.Label>Celular</Form.Label>
+          <Form.Control
+            value={state.celular}
+            onChange={handleChange}
+            name="celular"
+            type="phone"
+            placeholder="Celular"
+            disabled={disabled}
+          />
+        </div>
+        <div className="col-12 col-sm-6">
+          <Form.Label>Email </Form.Label>
+          <Form.Control
+            value={state.email}
+            onChange={handleChange}
+            name="email"
+            type="email"
+            placeholder="Email"
+            disabled={disabled}
+          />
+        </div>
+      </div>
         <Form.Label>
           ¿Qué podes ofrecernos? (tiempo, profesión, habilidad, escucha, etc.):{" "}
         </Form.Label>
@@ -89,7 +63,7 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
           onChange={handleChange}
           name="habilidades"
           type="text"
-          placeholder="contanos..."
+          placeholder="Contanos..."
           disabled={disabled}
         />
       </Form.Group>
