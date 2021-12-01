@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ContactoBrota from "../components/ContactoBrota";
 import Equipo from "../components/Equipo";
 import FamiliaGrande from "../components/FamiliaGrande";
+import Nosotros from '../components/Nosotros';
 
 function HomePage() {
   return (
@@ -28,6 +29,7 @@ function HomePage() {
         <ControlledCarousel></ControlledCarousel>
         <CardsCausas />
         <Voluntariado />
+        <Nosotros/>
         <Equipo />
         <FamiliaGrande />
         <Dispositivos />
