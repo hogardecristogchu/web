@@ -27,7 +27,7 @@ const MenuNav = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="navbar-nav flex-fill justify-content-between align-items-center">
               <Nav.Item>
-                <Nav.Link href="#">INICIO</Nav.Link>
+                <Nav.Link href="/">INICIO</Nav.Link>
               </Nav.Item>
               <NavDropdown href="#" title="¿QUIÉNES SOMOS?" id="nav-dropdown">
                 <NavDropdown.Item href="#">NOSOTROS</NavDropdown.Item>
@@ -90,7 +90,7 @@ const MenuNav = () => {
                 <Nav.Link href="/blog">BLOG</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#">CONTACTO</Nav.Link>
+                <Nav.Link href="/contacto">CONTACTO</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

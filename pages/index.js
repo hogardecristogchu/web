@@ -14,10 +14,8 @@ import BrotaServicios from "../components/BrotaServicios";
 import BrotaProductos from "../components/BrotaProductos";
 import CasitaLibertad from "../components/CasitaLibertad";
 import ColaborarVoluntariado from "../components/ColaborarVoluntariado";
-import Novedades from "../components/Novedades";
 import DonacionMonetaria from "../components/DonacionMonetaria";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contacto from "../components/Contacto";
 import ContactoBrota from "../components/ContactoBrota";
 import Equipo from "../components/Equipo";
 import FamiliaGrande from "../components/FamiliaGrande";
@@ -44,12 +42,10 @@ function HomePage() {
         <CasitaLibertad />
         <ColaborarVoluntariado />
         <DonacionMonetaria />
-        <Novedades />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
-        <Contacto />
       </div>
     </>
   );
