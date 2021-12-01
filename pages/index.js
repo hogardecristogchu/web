@@ -21,16 +21,17 @@ import ContactoBrota from "../components/ContactoBrota";
 import FooterCompleto from "../components/FooterCompleto";
 import Equipo from '../components/Equipo';
 import FamiliaGrande from "../components/FamiliaGrande";
+import Nosotros from '../components/Nosotros';
 
 function HomePage() {
   return (
     <>
-
       <MenuNav />
       <div>
         <ControlledCarousel></ControlledCarousel>
         <CardsCausas />
         <Voluntariado />
+        <Nosotros/>
         <Equipo />
         <FamiliaGrande/>
         <Dispositivos />
