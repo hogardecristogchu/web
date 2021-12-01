@@ -20,6 +20,7 @@ import ContactoBrota from "../components/ContactoBrota";
 import Equipo from "../components/Equipo";
 import FamiliaGrande from "../components/FamiliaGrande";
 import Nosotros from '../components/Nosotros';
+import Novedades from '../components/Novedades';
 
 function HomePage() {
   return (
@@ -48,6 +49,7 @@ function HomePage() {
         <ContactoBrota titulo="Comprar productos Brota" />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
+        <Novedades/>
       </div>
     </>
   );
