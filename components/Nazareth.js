@@ -1,6 +1,6 @@
-
 import React from "react";
-import CardDispositivos from "./CardDispositivos";
+import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
+import ContactosIndividuales from "./ContactosIndividuales";
 import Testimonios from "./Testimonios";
 
 const Nazareth = () => {
@@ -23,7 +23,7 @@ const Nazareth = () => {
   ];
   return (
     <>
-      <CardDispositivos
+      <CardDispositivosSinMapa
         imagen={"/dispositivos/Nazareth.jpg"}
         titulo={"NAZARETH"}
         subtitulo={"Loren ipsum"}
@@ -31,6 +31,7 @@ const Nazareth = () => {
         textoDos={"En este lugar se llevan a cabo diversas actividades tales como talleres de marroquinería, carpintería, espacios de espiritualidad, espacios de escucha, grupos de familia, asesoramiento legal, entre otras.El Centro Barrial Nazareth también aloja a personas durante la noche, lo cual implica el gran desafío de ofrecer contención las 24hrs del día, los siete días de la semana."}
       />
       <Testimonios testimonios={testimonios}></Testimonios>
+      <ContactosIndividuales titulo="Centro Barrial Nazareth" mail="hogarcristonazareth@gmail.com" linkRedes="https://www.facebook.com/hogardecristonazareth" facebook="facebook.com/hogardecristonazareth"></ContactosIndividuales>
     </>
   );
 };

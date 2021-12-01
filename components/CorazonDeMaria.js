@@ -1,5 +1,6 @@
 import React from 'react';
 import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
+import ContactosIndividualesSinRedes from './ContactosIndividualesSinRedes';
 import Testimonios from "./Testimonios";
 
 const CorazonDeMaria = () => {
@@ -30,6 +31,7 @@ const CorazonDeMaria = () => {
         textoDos={"Corazón de María es un lugar de contención y de reaprendizaje en su rol materno, de recuperación, de empoderamiento social y económico, y de generación de vínculos saludables y redes que favorecen el tránsito hacia una vida sin consumo. En este lugar se llevan a cabo diversas actividades tales como talleres de costura, espacios de espiritualidad, terapéuticos, hockey, actividades prácticas, grupo de familia, entre otras."}
       />
       <Testimonios  testimonios={testimonios}></Testimonios>
+      <ContactosIndividualesSinRedes titulo="Centro Barrial Corazón de Maria" mail="casacorazondemariagchu@gmail.com"></ContactosIndividualesSinRedes>
     </>
   );
 };

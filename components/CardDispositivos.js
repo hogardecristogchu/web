@@ -12,13 +12,14 @@ const CardDispositivos = ({
   source,
 }) => {
   const [show, setShow] = useState(true);
+  const [mostrar, setMostrar] = useState(true);
   return (
     <div>
       <div className="container movil my-5">
         <div className="row mt-5">
           <div className="col-12 col-md-6">
             {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}
-            <MapDispositivos source={source} />
+            <div>{!mostrar && <MapDispositivos source={source} />}</div>
           </div>
           <div className="col-12 col-md-6">
             <div className="row title mt-2">
@@ -38,6 +39,15 @@ const CardDispositivos = ({
                 }}
               >
                 {show ? "LEER MÁS" : "LEER MENOS"}
+              </button>
+              <button
+                className="btn btn-ubicaciones"
+                type="button"
+                onClick={() => {
+                  setMostrar(!mostrar);
+                }}
+              >
+                {mostrar? "VER UBICACIÓN" : "OCULTAR UBICACIÓN"}
               </button>
             </div>
             {textButton && (

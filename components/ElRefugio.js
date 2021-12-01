@@ -6,19 +6,14 @@ const ElRefugio = () => {
   const testimonios = [
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Marcelo, 28 años",
+        "Es mi casa, en ella pude corregir algunos aspectos de mi vida",
+      testigo: "Martin",
     },
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Juana, 53 años",
-    },
-    {
-      testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Mariana, 23 años",
-    },
+        "Es mi casa, lugar de contención, donde cuidan mi salud",
+      testigo: "Ramon",
+    }
   ];
   return (
     <>

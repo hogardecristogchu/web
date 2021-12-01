@@ -4,7 +4,6 @@ import CardsCausas from "../components/CardsCausas";
 import Voluntariado from "../components/Voluntariado";
 import MenuNav from "../components/MenuNav";
 import Dispositivos from "../components/Dispositivos";
-import Maps from "../components/Maps";
 import Nazareth from "../components/Nazareth";
 import CorazonDeMaria from "../components/CorazonDeMaria";
 import AsuncionDeMaria from "../components/AsuncionDeMaria";
@@ -21,7 +20,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ContactoBrota from "../components/ContactoBrota";
 import FooterCompleto from "../components/FooterCompleto";
 import Equipo from '../components/Equipo';
-import Contacto from '../components/Contacto';
 import FamiliaGrande from "../components/FamiliaGrande";
 
 function HomePage() {
@@ -36,7 +34,6 @@ function HomePage() {
         <Equipo />
         <FamiliaGrande/>
         <Dispositivos />
-        <Maps />
         <Nazareth/>
         <CorazonDeMaria/>
         <AsuncionDeMaria/>
@@ -51,7 +48,6 @@ function HomePage() {
         <Blog />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
-        <Contacto />
         <FooterCompleto />
       </div>
     </>

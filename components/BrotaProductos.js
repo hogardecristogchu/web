@@ -1,13 +1,14 @@
 import React from "react";
 import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
+import ContactosIndividuales from "./ContactosIndividuales";
 import Testimonios from "./Testimonios";
 
 const BrotaProductos = () => {
   const testimonios = [
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Marcelo, 28 años",
+        "Brota es una experiencia muy linda para mi, es un acompañamiento, un trabajo digo",
+      testigo: "Yamila, 37 años",
     },
     {
       testimonio:
@@ -35,6 +36,7 @@ const BrotaProductos = () => {
         textButton={"COMPRAR NUESTROS PRODUCTOS"}
       />
       <Testimonios testimonios={testimonios}></Testimonios>
+      <ContactosIndividuales titulo="Cooperativa Brota" mail="brota.gchu@hogardecristo.org.ar" linkRedes="https://www.facebook.com/brota.hc.5" facebook="facebook.com/brota.hc.5"></ContactosIndividuales>
     </>
   );
 };

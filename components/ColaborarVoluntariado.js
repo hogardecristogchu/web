@@ -68,32 +68,30 @@ const ColaborarVoluntariado = () => {
           profesión, cuerpo a cuerpo o para alguna situación puntual (por
           ejemplo: eventos).
         </p>
-        <div className="col-12 col-md-6">
-          {
-            <img
-              src={"/dispositivos/VOLUNTARIADO.jpeg"}
-              className="img-thumbnail-center "
-              alt="voluntarios"
-            />
-          }
-        </div>
-        <Row>
-          <Col>
+        <div className="row pt-5 pb-4">
+          <div className="col-12 col-md-6">
+            {
+              <img
+                src={"/dispositivos/VOLUNTARIADO.jpeg"}
+                className="img-thumbnail-center "
+                alt="voluntarios"
+              />
+            }
+          </div>
+          <div className="col-12 col-md-6">
             <VoluntariadoIndividual
               state={stateIndividual}
               handleChange={handleChangeIndividual}
-              
+                
             />
-          </Col>
-          <div>
             <Button
               className="boton-slider"
               onClick={onClick}
             >
-              ENVIAR
+            ENVIAR
             </Button>
           </div>
-        </Row>
+        </div>
       </div>
     </div>
   );

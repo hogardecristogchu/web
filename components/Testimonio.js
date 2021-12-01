@@ -5,8 +5,8 @@ const Testimonio = ({testimonio, testigo}) => {
     <div className="row mt-1">
       <div className="card testimonio">
         <div className="card-body">
-          <p>{testimonio}</p>
-          <p>{testigo}</p>
+            <p className="p-testimonio">{testimonio}</p>
+            <p className="p-testigo">{testigo}</p>
         </div>
       </div>
     </div>

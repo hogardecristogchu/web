@@ -6,18 +6,18 @@ const BrotaProductos = () => {
   const testimonios = [
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Marcelo, 28 años",
+        "Para mí es una contención en mi vida por el tema de mi recuperación en un camino que me guía a la sociedad",
+      testigo: "Nacho, 35 años.",
     },
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Juana, 53 años",
+        "Brota para mí es muy importante. Me ayuda a contenerme y me gusta cumplir con mi trabajo",
+      testigo: "Maxi, 27 años",
     },
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Mariana, 23 años",
+      "Brota para mí significa reinserción social y laboral para poder recuperar los objetivos de mi vida. Ser responsables del laburo que meto y mucha paciencia",
+      testigo: "Carlos, 38 años",
     },
   ];
   return (
