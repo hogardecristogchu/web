@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ControlledCarousel from "../components/ControlledCarousel";
 import CardsCausas from "../components/CardsCausas";
 import Voluntariado from "../components/Voluntariado";
@@ -14,12 +14,10 @@ import BrotaServicios from "../components/BrotaServicios";
 import BrotaProductos from "../components/BrotaProductos";
 import CasitaLibertad from "../components/CasitaLibertad";
 import ColaborarVoluntariado from "../components/ColaborarVoluntariado";
-import Novedades from "../components/Novedades";
 import DonacionMonetaria from "../components/DonacionMonetaria";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import ContactoBrota from "../components/ContactoBrota";
-import FooterCompleto from "../components/FooterCompleto";
-import Equipo from '../components/Equipo';
+import Equipo from "../components/Equipo";
 import FamiliaGrande from "../components/FamiliaGrande";
 import Nosotros from '../components/Nosotros';
 
@@ -33,23 +31,23 @@ function HomePage() {
         <Voluntariado />
         <Nosotros/>
         <Equipo />
-        <FamiliaGrande/>
+        <FamiliaGrande />
         <Dispositivos />
-        <Nazareth/>
-        <CorazonDeMaria/>
-        <AsuncionDeMaria/>
+        <Nazareth />
+        <CorazonDeMaria />
+        <AsuncionDeMaria />
         <CasaMunilla />
         <EspacioPrimeraInfancia />
         <ElRefugio />
         <BrotaServicios />
         <BrotaProductos />
         <CasitaLibertad />
-        <ColaborarVoluntariado/>
+        <ColaborarVoluntariado />
         <DonacionMonetaria />
-        <Novedades />
         <ContactoBrota titulo="Contratar Servicios Brota" />
         <ContactoBrota titulo="Comprar productos Brota" />
-        <FooterCompleto />
+        <ContactoBrota titulo="Contratar Servicios Brota" />
+        <ContactoBrota titulo="Comprar productos Brota" />
       </div>
     </>
   );

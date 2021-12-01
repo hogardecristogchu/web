@@ -1,34 +1,33 @@
 import React, { useEffect, useState } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Novedades = () => {
-    const [posts, setPosts] = useState([]);
-    const toText = (node) => {
-        let tag = document.createElement("div");
-        tag.innerHTML = node;
-        node = tag.innerText;
-        return node;
-    };
-    const shortenText = (text, startingPoint, maxLength) => {
-        return text.length > maxLength
-            ? text.slice(startingPoint, maxLength)
-            : text;
-    };
-    const changeDay = (dayToChange) => {
-        let date = new Date(dayToChange)
-        let day = date.getDate()
-        let month = date.getMonth() + 1
-        let year = date.getFullYear()
-        if (month < 10) {
-            return `${day}-0${month}-${year}`
-        } else {
-            return `${day}-${month}-${year}`
-        }
+  const [posts, setPosts] = useState([]);
+  const toText = (node) => {
+    let tag = document.createElement("div");
+    tag.innerHTML = node;
+    node = tag.innerText;
+    return node;
+  };
+  const shortenText = (text, startingPoint, maxLength) => {
+    return text.length > maxLength
+      ? text.slice(startingPoint, maxLength)
+      : text;
+  };
+  const changeDay = (dayToChange) => {
+    let date = new Date(dayToChange);
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+    if (month < 10) {
+      return `${day}-0${month}-${year}`;
+    } else {
+      return `${day}-${month}-${year}`;
     }
     const elementsFromArray= (array, number)=>{
         return array.slice(0, number)
     }
-    useEffect(() => {
+     useEffect(() => {
         let mounted = true;
         fetch(
             "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@fernandomatiasdv"
