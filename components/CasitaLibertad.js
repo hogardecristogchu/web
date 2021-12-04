@@ -25,12 +25,12 @@ const CasitaLibertad = () => {
       <CardDispositivosSinMapa
         imagen={"/dispositivos/Casa-Libertad.jpg"}
         titulo={"CASITA LIBERTAD"}
-        subtitulo={"Loren ipsum"}
+        subtitulo={""}
         texto={
-          "Casa Libertad, es un dispositivo que comenzó a funcionar con recursos propios en diciembre del 2019. El mismo tiene por fin acompañar a personas privadas de la libertad, y estar particularmente presentes en el momento en que recuperan su libertad.Por medio de diferentes estrategias, herramientas y decisiones se busca impulsar el camino de autonomía de cada persona y su proceso de inclusión social."
+          "Casa Libertad, es un dispositivo que comenzó a funcionar con recursos propios en diciembre del 2019. El mismo tiene por fin acompañar a personas privadas de la libertad, durante el contexto de encierro y cuando recuperan la libertad. Por medio de diferentes estrategias, herramientas y decisiones se busca impulsar el camino de autonomía de cada persona y su proceso de inclusión social."
         }
         textoDos={
-          "Entre las acciones puntuales que se realizan se pueden mencionar, las visitas a la Granja Penal, el acompañamiento y traslado a sus viviendas cuando recuperan la libertad, el envío de mercadería, la comunicación y contención telefónica diaria, la asistencia legal, el ofrecimiento de un espacio donde alojarse de forma temporal (hasta que se logra la revinculación con la familia y/o comunidad) y la búsqueda de oportunidades de trabajo."
+          "Los referentes de Casa Libertad realizan visitas semanales a la Granja Penal, acercan mercadería, establecen comunicación y contención telefónica diaria, realizan asistencia legal, acompañan el primer día de libertad facilitando el traslado a sus hogares, acompañan las búsquedas de trabajo y en caso de ser necesario facilitan el alojamiento de forma temporal, hasta que se logra la revinculación con la familia y/o comunidad."
         }
       />
       <Testimonios  testimonios={testimonios}></Testimonios>

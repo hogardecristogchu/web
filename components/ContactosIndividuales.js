@@ -11,7 +11,7 @@ const ContactosIndividuales= ({titulo, mail, linkRedes, facebook}) => {
             <div className="card-contactos text-center">
                     <h5 className="title-contactos">{titulo}</h5>
                     <p className="text-contacto"><BsFillEnvelopeFill  className="contacto-icon" />{mail}</p>
-                    <p className="text-contacto"><BsFacebook className="contacto-icon" /><a href={linkRedes} rel="noreferrer" target="_blank">{facebook}</a></p>
+                    <p className="text-contacto"><BsFacebook className="contacto-icon" /><a href={linkRedes} rel="noreferrer" className="contacto-a" target="_blank">{facebook}</a></p>
             </div>
         </div>
     )

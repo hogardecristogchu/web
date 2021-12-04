@@ -7,36 +7,31 @@ const BrotaProductos = () => {
   const testimonios = [
     {
       testimonio:
-        "Brota es una experiencia muy linda para mi, es un acompañamiento, un trabajo digo",
+        "Brota es una experiencia muy linda para mi, es un acompañamiento, un trabajo digo.",
       testigo: "Yamila, 37 años",
     },
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Juana, 53 años",
-    },
-    {
-      testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Mariana, 23 años",
-    },
+        "Brota para mi es una ayuda. Es el compañerismo",
+      testigo: "Johana 35 años",
+    }
   ];
   return (
     <>
       <CardDispositivosSinMapa
         imagen={"/dispositivos/Brota-Productos.jpg"}
         titulo={"BROTA PRODUCTOS"}
-        subtitulo={"Loren ipsum"}
+        subtitulo={"Si puedes soñarlo, puedes hacerlo"}
         texto={
-          "Brota es la marca comercial de los productos y servicios que se ofrecen desde el Hogar hacia la comunidad. Brota nació en marzo del año 2019. El nombre hace referencia a la posibilidad que tiene cada persona, de volver a nacer y transformarse en nueva vida para otros."
+          "Brota productos nació ante la necesidad de generar fuentes de trabajo para mujeres de los diferentes centros barriales. Luego de constatar la dificultad que existía para que las mujeres se sumaran a la cooperativa de servicios, se proyectó un modelo de negocios donde fuera posible para las mujeres compatibilizar el trabajo con sus realidades."
         }
         textoDos={
-          "Brota “servicios” ofrece principalmente servicios de jardinería y mantenimiento de parques, construcción y albañilería, e impermeabilización y pintura. Las personas que conforman la cooperativa trabajan con seguro propio y coordinados por un maestro mayo de obra."
+          "En la actualidad, Brota productos ofrece principalmente productos textiles que son vendidos en comercios, en ferias de emprendedores y en talleres de sensibilización que se ofrecen en los colegios de la ciudad."
         }
         textButton={"COMPRAR NUESTROS PRODUCTOS"}
       />
       <Testimonios testimonios={testimonios}></Testimonios>
-      <ContactosIndividuales titulo="Cooperativa Brota" mail="brota.gchu@hogardecristo.org.ar" linkRedes="https://www.facebook.com/brota.hc.5" facebook="facebook.com/brota.hc.5"></ContactosIndividuales>
+      <ContactosIndividuales titulo="Cooperativa Brota" mail="brota.gchu@hogardecristo.org.ar" linkRedes="https://www.facebook.com/Brota-la-marca-del-Hogar-110062414093260" facebook="facebook.com/Brota-la-marca-del-Hogar"></ContactosIndividuales>
     </>
   );
 };

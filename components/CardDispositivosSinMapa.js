@@ -19,10 +19,11 @@ const CardDispositivos = ({
           </div>
           <div className="col-12 col-md-6">
             <div className="row title mt-2">
+              <div className="line-dec-"></div>
               <h2>{titulo}</h2>
             </div>
-            <div className="row mb-4">
-              <h4>{subtitulo}</h4>
+            <div className="row mb-1 mt-1">
+              <p className="subtitulo-dispositivos">{subtitulo}</p>
             </div>
             <div className="row">
               <p>{texto} </p>

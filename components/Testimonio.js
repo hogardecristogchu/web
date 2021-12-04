@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonio = ({testimonio, testigo}) => {
   return (
-    <div className="row mt-1">
+    <div className="row mt-1 mb-3">
       <div className="card testimonio">
         <div className="card-body">
             <p className="p-testimonio">{testimonio}</p>
