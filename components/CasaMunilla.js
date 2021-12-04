@@ -25,7 +25,7 @@ const CasaMunilla = () => {
       <CardDispositivosSinMapa
         imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
         titulo={"Casa Munilla"}
-        subtitulo={"Acompañamos la totalidad de cada vida"}
+        subtitulo={""}
         texto={"Casa Munilla se ubica en el Barrio Munilla de nuestra ciudad. Abrió sus puertas como centro de día a finales del 2020. Este dispositivo nace a partir de un conflicto vecinal, y crece ante la necesidad de ofrecer un espacio de convivencia y contención dentro del barrio."}
         textoDos={
           "En el mismo se acompañan a hombres, mujeres y niños y se ofrecen diversas actividades como ser: actividades deportivas, talleres de oficio, espacios individuales de escucha, asesoramiento legal, espacios terapéuticos y espacios de juegos y estimulación temprana."

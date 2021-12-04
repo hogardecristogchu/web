@@ -5,7 +5,7 @@ const Testimonios = ({ testimonios }) => {
   return (
     <div className="container movil my-5">
       <div className="row title">
-        <h2 className="text-center">Testimonios</h2>
+        <h2>Testimonios</h2>
       </div>
       {testimonios.map((testimonio, index) => (
         <Testimonio

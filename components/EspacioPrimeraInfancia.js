@@ -12,8 +12,8 @@ const EspacioPrimeraInfancia = () => {
     },
     {
       testimonio:
-        "A Jesús niño lo amo mucho",
-      testigo: "Mirko, 7 años",
+        "Jesús niño es un corazón como de amor para mí",
+      testigo: "Priscila, 5 años",
     },
     {
       testimonio:
@@ -30,8 +30,8 @@ const EspacioPrimeraInfancia = () => {
     <>
       <CardDispositivos
         imagen={"/dispositivos/EPI-Jesus.jpg"}
-        titulo={"JESUS NIÑO"}
-        subtitulo={"ESPACIO DE PRIMERA INFANCIA (EPI)"}
+        titulo={"JESUS NIÑO EPI"}
+        subtitulo={"Poner al niño en el centro de la escena"}
         texto={
           "Jesús Niño es un Espacio de Primera Infancia (EPI) que comenzó a dar sus primeros pasos en el Centro Barrial Corazón de María en julio de 2018 y desde noviembre de ese mismo año, comenzó a recibir a los niños en sus propias instalaciones."
         }
