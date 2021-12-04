@@ -19,6 +19,26 @@ a {
   box-sizing: border-box;
 }
 
+.line-dec {
+  width: 30px;
+  height: 5px;
+  margin-bottom: 1.1rem;
+  background-color: #63296C;
+}
+
+.line-dec- {
+  width: 30px;
+  height: 5px;
+  margin-bottom: 1.1rem;
+  background-color: #EC1D5C;
+  margin-left: calc(var(--bs-gutter-x) * .5);;
+}
+
+.sub-vol {
+  color: gray;
+  font-style: italic;
+}
+
 .text-title {
   margin-top: 4rem;
   margin-bottom: 1rem;
@@ -44,6 +64,7 @@ a {
 .title h2 {
   font-weight: 700;
 }
+
 [data-overlay] {
   position: relative;
 }
@@ -58,6 +79,7 @@ a {
   width: 100%;
   z-index: 1;
 }
+
 [data-overlay="1"]::before {
   opacity: 0.4;
 }
@@ -67,7 +89,7 @@ a {
 }
 
 .boton-slider {
-  background-color: #62bc0f !important;
+  background-color: #63296C !important;
   border: none;
   font-size: 1rem;
   font-weight: 700;
@@ -76,7 +98,7 @@ a {
 
 .boton-slider:hover,
 .boton-slider:focus {
-  background-color: #448508 !important;
+  background-color: #43154a !important;
   border: none;
   box-shadow: none;
   box-shadow: 0 0 0 0 !important;
@@ -84,7 +106,7 @@ a {
 }
 
 .boton-slider-2 {
-  background-color: #fcba02 !important;
+  background-color: #EC1D5C !important;
   border: none;
   font-size: 1rem;
   font-weight: 700;
@@ -93,7 +115,7 @@ a {
 
 .boton-slider-2:hover,
 .boton-slider-2:focus {
-  background-color: #c79202 !important;
+  background-color: #b90c41 !important;
   border: none;
   box-shadow: none;
   box-shadow: 0 0 0 0 !important;
@@ -101,17 +123,19 @@ a {
 }
 
 .titulo-caption {
-  color: #fcba02;
+  color: #EC1D5C;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
 }
+
 .subtitulo-caption {
   color: #fff;
   font-size: 2rem;
   margin-bottom: 0rem;
   font-weight: 700;
 }
+
 .text-caption {
   color: #fff;
   font-size: 1.4rem;
@@ -144,9 +168,18 @@ a {
   color: #62bc0f !important;
 }
 
+.container-paginas {
+  margin-top: 10rem;
+}
+
 .dropdown-menu {
   background-color: white;
   margin-top: 0.8rem;
+}
+
+.dropend a {
+    color: grey !important;
+    text-decoration: none
 }
 
 .dropdown-menu.clicked {
@@ -308,7 +341,7 @@ a {
 }
 
 .card-icon {
-  color: #62bc0f;
+  color: #63296C;
   margin-bottom: 2px;
   font-size: 1.2rem;
   margin-left: 10px;
@@ -366,7 +399,6 @@ a {
   margin-right: 8px;
 }
 
-
 .pl-2 {
   padding-left: 2rem;
 }
@@ -377,7 +409,7 @@ a {
 
 .btn-ubicaciones {
   color: white;
-  background-color: #62bc0f;
+  background-color: #63296C;
   border-radius: 5px;
   border-style: none;
   margin-bottom: 1.5rem;
@@ -389,12 +421,12 @@ a {
 
 .btn-ubicaciones:hover {
   color: white;
-  background-color: #448508;
+  background-color: #43154a;
 }
 
 .btn-dispositivos {
   color: white;
-  background-color: #fcba02;
+  background-color: #EC1D5C;
   border-radius: 5px;
   border-style: none;
   margin-bottom: 1.5rem;
@@ -406,19 +438,29 @@ a {
 
 .btn-dispositivos:hover {
   color: white;
-  background-color: #c79202;
+  background-color: #b90c41;
 }
 
 .p-testimonio {
-  padding-top: 1rem!important;
+  padding-top: 0.5rem!important;
+  margin-bottom: 0.5rem;
 }
 
 .p-dispositivos {
   font-size: 1.1rem;
 }
 
-a:hover {
-  color: black;
+.contacto-a {
+  color: #525252;
+}
+
+.contacto-a:hover {
+  color: #000000;
+}
+
+.a-correos {
+  color: grey;
+  text-decoration: none!important;
 }
 
 .a-correos:hover {
@@ -438,6 +480,23 @@ a:hover {
   width: 20rem;
 }
 
+.card-colabora {
+  flex: 1 1 auto;
+  padding: 3rem 0.8rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border: 1px solid #dbdbdb;
+}
+
+.card-colaborar {
+  flex: 1 1 auto;
+  padding: 2.05rem 0.8rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border: 1px solid #dbdbdb;
+  height: 200px;
+}
+
 .card-contactos {
   flex: 1 1 auto;
   padding: 3rem 0.8rem;
@@ -451,7 +510,7 @@ a:hover {
 
 .title-contactos {
   font-weight: 700;
-  color: #62bc0f;
+  color: #EC1D5C;
   font-size: 1.25rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -459,14 +518,32 @@ a:hover {
 }
 
 .text-contacto {
-  color: #303030;
+  color: #525252;
   margin-bottom: 0.5rem !important;
   margin-top: 0.5rem !important;
+}
+
+.text-colabora {
+  color: #525252;
+  margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+  font-size: 1.04rem;
+}
+
+.subtitulo-dispositivos {
+  font-style: italic;
+  color: #898989;
+  font-size: 1.05rem;
 }
 
 .contacto-icon {
   margin-right: 10px;
   color: #303030;
+}
+
+.icon-colabora {
+  color: #EC1D5C;
+  font-size: 2rem;
 }
 
 .width-height{
@@ -515,43 +592,53 @@ a:hover {
     margin-right: 1%;
 
   }
+
   .testimonio {
     max-width: 94%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 1rem !important;
   }
+  
   .card-contacto {
     margin-left: 2%;
     margin-right: 2%;
   }
+  
   .card-contactos {
     width: 440px;
   }
+  
   .movil {
     margin-left: 2%;
     margin-right: 2%;
   }
+  
   .carousel {
     margin-top: 15%;
     position: relative;
   }
+  
   .titulo-caption {
     font-size: 2.1rem;
     margin-bottom: 1rem;
     font-weight: 700;
   }
+  
   .subtitulo-caption {
     font-size: 1.8rem;
   }
+  
   .carousel-caption {
     margin-top: 10%;
   }
+  
   .card-pcausas {
     width: 95% !important;
     margin-left: 2% !important;
     margin-right: 2% !important;
   }
+  
   .img-fluid {
     max-width: 95%;
     height: auto;
