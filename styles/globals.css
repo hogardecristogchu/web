@@ -89,7 +89,7 @@ a {
 }
 
 .boton-slider {
-  background-color: #63296C !important;
+  background-color: #00aaa4 !important;
   border: none;
   font-size: 1rem;
   font-weight: 700;
@@ -123,7 +123,7 @@ a {
 }
 
 .titulo-caption {
-  color: #EC1D5C;
+  color: #ffffff;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 700;
@@ -305,7 +305,7 @@ a {
   margin-bottom: 7%;
 }
 .card-contacto {
-  background-color: #fff !important;
+  background-color: rgb(122, 9, 9) !important;
 }
 
 .card-contacto .card-header {
@@ -346,6 +346,19 @@ a {
   font-size: 1.2rem;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.styles1{
+  background-color: #00a9a2;
+  color: #FFFF;
+}
+.styles2{
+  background-color: #eb1d5d;
+  color: #FFFF;
+}
+.styles3{
+  background-color: #64296d;
+  color: #FFFF;
 }
 
 .footer {
