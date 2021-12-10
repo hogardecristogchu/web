@@ -5,7 +5,7 @@ import { BsCartFill } from "react-icons/bs";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { BsFillPrinterFill } from "react-icons/bs";
 import { BsPiggyBankFill } from "react-icons/bs";
-
+import Link from 'next/link';
 const ComoColaborar = () => {
     return (
         <>
@@ -18,10 +18,10 @@ const ComoColaborar = () => {
                 <div className="col-12">
                     <p className="p-colabora mt-2 mb-4">Podés colaborar con el Hogar de Cristo Gualeguaychú de distintas formas:</p>
                     <ListGroup variant="flush">
-                        <ListGroup.Item><BsPeopleFill className="icon-colabora" /><a className="a-negros" href="/voluntariado">Siendo voluntario.</a></ListGroup.Item>
-                        <ListGroup.Item><BsFillBriefcaseFill className="icon-colabora" /><a className="a-negros" href="/contratar_brota">Contratando los servicios de Brota.</a></ListGroup.Item>
-                        <ListGroup.Item><BsCartFill className="icon-colabora" /><a className="a-negros" href="/comprar_brota">Comprando productos Brota.</a></ListGroup.Item>
-                        <ListGroup.Item><BsFillPrinterFill className="icon-colabora" /><a className="a-negros" href="/voluntariado">Colaborando con recursos materiales: muebles, electrodomésticos, utensilios de cocina, herramientas de trabajo, etc.</a></ListGroup.Item>
+                        <ListGroup.Item><BsPeopleFill className="icon-colabora" /><Link className="a-negros" href="/voluntariado"><a>Siendo voluntario.</a></Link></ListGroup.Item>
+                        <ListGroup.Item><BsFillBriefcaseFill className="icon-colabora" /><Link className="a-negros" href="/contratar_brota"><a>Contratando los servicios de Brota.</a></Link></ListGroup.Item>
+                        <ListGroup.Item><BsCartFill className="icon-colabora" /><Link className="a-negros" href="/comprar_brota"><a>Comprando productos Brota.</a></Link></ListGroup.Item>
+                        <ListGroup.Item><BsFillPrinterFill className="icon-colabora" /><Link className="a-negros" href="/voluntariado">Colaborando con recursos materiales: muebles, electrodomésticos, utensilios de cocina, herramientas de trabajo, etc.</Link></ListGroup.Item>
                         <ListGroup.Item> <p className="p-important"><BsPiggyBankFill className="icon-colabora" />
                            Aportando mensualmente a la causa en este LINK: 
                             <a href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true" className="" rel="noreferrer" target="_blank"><button className="btn boton-colabora">Realizar donación</button></a> </p>
