@@ -326,7 +326,7 @@ a {
 }
 
 .btn-secundario:hover {
-  color: #00a9a2 !important;
+  color: #00aaa4  !important;
   background-color: white;
   border-color: white;
 }
@@ -359,7 +359,7 @@ a {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: #00a9a2;
+  color: #00aaa4;
   text-decoration: none;
   background-color: #ffffff38 !important;
 }
