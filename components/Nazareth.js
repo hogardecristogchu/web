@@ -22,7 +22,7 @@ const Nazareth = () => {
     },
   ];
   return (
-    <>
+    <div id="nazareth">
       <CardDispositivos
         imagen={"/dispositivos/Nazareth.jpg"}
         titulo={"NAZARETH"}
@@ -37,7 +37,7 @@ const Nazareth = () => {
       />
       <Testimonios testimonios={testimonios}></Testimonios>
       <ContactosIndividuales titulo="Centro Barrial Nazareth" mail="hogarcristonazareth@gmail.com" linkRedes="https://www.facebook.com/hogardecristonazareth" facebook="facebook.com/hogardecristonazareth"></ContactosIndividuales>
-    </>
+    </div>
   );
 };
 

@@ -9,10 +9,10 @@ const CentrosBarriales = () => {
      return (
         <div className="container-paginas">
           <Dispositivos />
-          <Nazareth/>
-          <CorazonDeMaria/>
+          <Nazareth />
+          <CorazonDeMaria />
           <AsuncionDeMaria/>
-          <CasaMunilla />
+          <CasaMunilla/>
         </div>
       );
     };

@@ -17,7 +17,7 @@ const CorazonDeMaria = () => {
     }
   ];
   return (
-    <>
+    <div id="corazondemaria">
       <CardDispositivos
         imagen={"/dispositivos/CorazonDeMaria.jpg"}
         titulo={"CORAZÓN DE MARÍA"}
@@ -32,7 +32,7 @@ const CorazonDeMaria = () => {
       />
       <Testimonios  testimonios={testimonios}></Testimonios>
       <ContactosIndividuales titulo="Centro Barrial Corazón de Maria" mail="casacorazondemariagchu@gmail.com" linkRedes="https://www.facebook.com/Centro-Barrial-Coraz%C3%B3n-de-Mar%C3%ADa-Hogar-de-Cristo-Gch%C3%BA-Casa-de-mujeres-108104811709999" facebook="facebook.com/Centro-Barrial-Corazón-de-María"></ContactosIndividuales>
-    </>
+    </div>
   );
 };
 

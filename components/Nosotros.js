@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 const Nosotros  = () => {
     const [show, setShow] = useState(true);
     return (
-        <div className="container movil my-5">
+        <div className="container movil my-5" id="nosotros">
             <div className="row text-center mt-5">
                 <div className="col-12">
                     <div className="title mt-2 mb-4">

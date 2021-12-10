@@ -6,9 +6,9 @@ import Nosotros from '../components/Nosotros';
 const QuienesSomos = () => {
      return (
         <div className="container-paginas">
-            <Nosotros id="nosotros" />
-            <Equipo id="equipo"/>
-            <FamiliaGrande id="familiagrande"/>
+            <Nosotros />
+            <Equipo/>
+            <FamiliaGrande/>
         </div>
       );
     };
