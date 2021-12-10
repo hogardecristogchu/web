@@ -28,7 +28,7 @@ const Novedades = () => {
     useEffect(() => {
         let mounted = true;
         fetch(
-            "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@fernandomatiasdv"
+            "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@comunicaciongchu"
         )
             .then((res) => res.json())
             .then((items) => {
@@ -49,7 +49,7 @@ const Novedades = () => {
                 {postsFiltrado.map((post, index) => (
                     <div key={index} className="col-12 col-lg-4">
                         <div className="card m-3">
-                            <img src={post.thumbnail} className="card-img-top" alt="card-image" style={{ width: '100%', height: '15rem' }} />
+                            <div className="bloque-img"><img src={post.thumbnail} className="card-img-top" alt="card-image" /></div>
                             <div className="card-body">
                                 <h5 className="card-title">{post.title}</h5>
                                 <p className="card-text"> {"..." + shortenText(toText(post.content), 50, 200) + "..."}</p>

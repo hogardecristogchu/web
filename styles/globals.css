@@ -6,6 +6,34 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15rem;
+  object-fit: none;
+}
+
+.bloque-img > img{
+	object-fit: cover;
+}
+
+th {
+  text-align: -webkit-match-parent;
+  text-align: match-parent !important
+}
+
+.form-check-input {
+  color-adjust: -webkit-print-color-adjust;
+}
+
+.form-control {
+  background-clip: -webkit-background-clip;
+}
+
 .ml-2 {
   margin-left: 0.6rem;
 }
@@ -867,7 +895,7 @@ a {
     max-width: 95%;
     height: auto;
   }
-  
+
   .w-100 {
     width: 100%;
     height: auto;
