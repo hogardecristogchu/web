@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 
 const FooterCompleto= () => {
     return (
-        <div className="footer mt-5">
+        <div id="contacto" className="footer mt-5">
             <div className="container pt-5 pb-5">
                 <div className="row">
                     <div className="md-footer col-12 col-md-6 col-lg-3">

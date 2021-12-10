@@ -34,7 +34,7 @@ const MenuNav = () => {
                 <Nav.Link onClick={() => router.push("/")}>INICIO</Nav.Link>
               </Nav.Item>
               <NavDropdown title="¿QUIÉNES SOMOS?" id="nav-dropdown">
-                <NavDropdown.Item onClick={() => router.push("/quienes#nosotros")} >
+                <NavDropdown.Item onClick={() => router.push("/quienes")} >
                   NOSOTROS
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -64,9 +64,9 @@ const MenuNav = () => {
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/depi">EPI</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/depi")}>EPI</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/drefugio">REFUGIO</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/drefugio")}>REFUGIO</NavDropdown.Item>
                 <NavDropdown.Divider />
                 {["end"].map((direction) => (
                   <DropdownButton
@@ -75,11 +75,11 @@ const MenuNav = () => {
                     variant="secundario"
                     title={`   BROTA    `}
                   >
-                    <Dropdown.Item href="/dbrotaproductos">
+                    <Dropdown.Item onClick={() => router.push("/dbrotaproductos")}>
                       PRODUCTOS
                     </Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/dbrotaservicios">
+                    <Dropdown.Item onClick={() => router.push("/dbrotaservicios")}>
                       SERVICIOS
                     </Dropdown.Item>
                   </DropdownButton>
@@ -97,21 +97,21 @@ const MenuNav = () => {
                   DONACIÓN MONETARIA
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">SER VOLUNTARIO</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/voluntariado")}>SER VOLUNTARIO</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item onClick={() => router.push("/dbrotaservicios")}>
                   CONTRATAR SERVICIOS BROTA
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item onClick={() => router.push("/dbrotaproductos")}>
                   COMPRAR PRODUCTOS BROTA
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Item>
-                <Nav.Link href="/novedades">NOVEDADES</Nav.Link>
+                <Nav.Link onClick={() => router.push("/novedades")}>NOVEDADES</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#">CONTACTO</Nav.Link>
+                <Nav.Link onClick={() => router.push("#contacto")}>CONTACTO</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
