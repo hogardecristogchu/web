@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import MapDispositivos from "./MapDispositivos";
 import Button from "react-bootstrap/Button";
-import MapasConDireccion from "./MapasConDireccion";
 
 const CardDispositivos = ({
   imagen,
@@ -8,14 +8,8 @@ const CardDispositivos = ({
   subtitulo,
   texto,
   textoDos,
-  textButton ="",
-  linkBrota,
-  botonTexto,
-  tituloMapa,
-  subtituloMapa,
-  textoMapa,
-  textoDosMapa,
-  ubicacion,
+  textButton = "",
+  source,
 }) => {
   const [show, setShow] = useState(true);
   const [mostrar, setMostrar] = useState(true);
@@ -25,10 +19,10 @@ const CardDispositivos = ({
         <div className="row mt-5">
           <div className="col-12 col-md-6">
             {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}
+            <div>{!mostrar && <MapDispositivos source={source} />}</div>
           </div>
           <div className="col-12 col-md-6">
             <div className="row title mt-2">
-              <div className="line-dec-"></div>
               <h2>{titulo}</h2>
             </div>
             <div className="row mt-1 mb-1">
@@ -55,15 +49,12 @@ const CardDispositivos = ({
               >
                 {mostrar? "VER UBICACIÓN" : "OCULTAR UBICACIÓN"}
               </button>
-              {textButton && (
-              <Button className="btn-contratar">
-                <a className="a-blancos" href={linkBrota}>{botonTexto}</a>
-              </Button>
-              )}
             </div>
-          </div>
-          <div className="col-12">
-            <div>{!mostrar && <MapasConDireccion tituloMapa={tituloMapa} subtituloMapa={subtituloMapa} textoMapa={textoMapa} textoDosMapa={textoDosMapa} ubicacion={ubicacion} />}</div>
+            {textButton && (
+              <Button className="boton-slider">
+                COMPRAR NUESTROS PRODUCTOS
+              </Button>
+            )}
           </div>
         </div>
       </div>

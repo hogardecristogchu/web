@@ -18,11 +18,11 @@ const FooterCompleto= () => {
                         <h5>Enlaces Rápidos</h5>
                         <Nav defaultActiveKey="/" className="flex-column">
                             <Nav.Link href="/" eventKey="link-0">Inicio</Nav.Link>
-                            <Nav.Link href="/quienes_somos" eventKey="link-1">¿Quiénes somos?</Nav.Link>
+                            <Nav.Link href="/quienes" eventKey="link-1">¿Quiénes somos?</Nav.Link>
                             <Nav.Link href="/dispositivos" eventKey="link-2">Dispositivos</Nav.Link>
-                            <Nav.Link href="/como_colaborar" eventKey="link-3">Cómo colaborar</Nav.Link>
+                            <Nav.Link eventKey="link-3">Cómo colaborar</Nav.Link>
                             <Nav.Link href="/novedades" eventKey="link-4">Novedades</Nav.Link>
-                            <Nav.Link eventKey="link-5" target="_blank" href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true">Donar Online</Nav.Link>
+                            <Nav.Link eventKey="link-5">Contacto</Nav.Link>
                         </Nav>
                     </div>
                     <div className="md-none col-md-6 col-lg-3">
@@ -39,7 +39,7 @@ const FooterCompleto= () => {
                         <p><BsFacebook className="footer-icon" /><span>Facebook</span></p>
                         <p className="p-correos"><a className="a-correos" href="https://www.facebook.com/hogardecristogchu" rel="noreferrer" target="_blank">facebook.com/hogardecristogchu</a></p>
                         <p><BsFillEnvelopeFill className="footer-icon" /><span>Correo Electronico</span></p>
-                        <p className="p-correos">comunicaciongchu@hogardecristo.org.ar</p>
+                        <p className="p-correos">cooperativadetrabajoehc@gmail.com</p>
                     </div>
                 </div>
             </div>
