@@ -10,7 +10,7 @@ const CardsCausas = () => {
                     <div className="card-body styles1" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Consumo problemático</h5>
                         <div className="text-center">
-                            <img src="/cards-icons/cp.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
+                            <img src="/cards-icons/cp_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
                         <p className="card-text text-center mt-3">Acompañamiento a personas y familias atravesadas por el consumo problemático de sustancias.</p>
                     </div>
@@ -19,7 +19,7 @@ const CardsCausas = () => {
                     <div className="card-body styles2" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Personas en situación de calle</h5>
                         <div className="text-center">
-                            <img src="/cards-icons/sc.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
+                            <img src="/cards-icons/sc_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
                         <p className="card-text text-center mt-3">Alojamiento y contención de personas en situación de calle.</p>
                     </div>
@@ -37,7 +37,7 @@ const CardsCausas = () => {
                     <div className="card-body styles1" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Inclusión laboral</h5>
                         <div className="text-center">
-                            <img src="/cards-icons/il.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
+                            <img src="/cards-icons/il_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
                         <p className="card-text text-center mt-3">Inclusión en la cooperativa de trabajo propia del Hogar de Cristo.</p>
                     </div>
@@ -64,7 +64,7 @@ const CardsCausas = () => {
                     <div className="card-body styles1" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Revinculación familiar</h5>
                         <div className="text-center">
-                            <img src="/cards-icons/rf.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
+                            <img src="/cards-icons/rf_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
                         <p className="card-text text-center mt-3">Restablecimiento de los vínculos entre padres/madres y sus hijos o en otros vínculos familiares (hermanos, tíos, y otros).</p>
                     </div>
@@ -92,4 +92,4 @@ const CardsCausas = () => {
     )
 }
 
-export default CardsCausas
+export default CardsCausas;

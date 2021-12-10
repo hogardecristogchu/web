@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 const images = [
   "/carrusel/1.jpg",
   "/carrusel/2.jpg",
+  "/carrusel/3.jpg",
   "/carrusel/4.jpg",
   "/carrusel/5.jpg",
   "/carrusel/6.jpg",
@@ -32,8 +33,8 @@ function ControlledCarousel() {
             <h3 className="titulo-caption">HOGAR DE CRISTO GUALEGUAYCHÚ</h3>
             <h6 className="subtitulo-caption">“RECIBIR LA VIDA COMO VIENE”</h6>
             <p className="text-caption">“Una respuesta integral a la exclusión”</p>
-            <Button className="boton-slider">CONOCENOS</Button>
-            <Button className="boton-slider-2">COLABORÁ CON NOSOTROS</Button>
+            <Button className="boton-slider-1"><a className="a-blancos" href="/quienes_somos">CONOCENOS</a></Button>
+            <Button className="boton-slider-2"><a className="a-blancos" href="/como_colaborar">COLABORÁ CON NOSOTROS</a></Button>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
