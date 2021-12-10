@@ -98,7 +98,7 @@ a {
 
 .boton-slider:hover,
 .boton-slider:focus {
-  background-color: #43154a !important;
+  background-color: #00aaa4 !important;
   border: none;
   box-shadow: none;
   box-shadow: 0 0 0 0 !important;
@@ -165,7 +165,7 @@ a {
 }
 
 .nav-item a:hover {
-  color: #62bc0f !important;
+  color: #00aaa4 !important;
 }
 
 .container-paginas {
@@ -389,7 +389,7 @@ a {
 }
 
 .footer .nav-link:hover {
-  color: #62bc0f;
+  color: #00aaa4;
   margin-bottom: 0.4rem !important;
   padding: 0rem !important;
 }
