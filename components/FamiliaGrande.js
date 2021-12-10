@@ -3,7 +3,7 @@ import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 import Link from 'next/link';
 const FamiliaGrande = () => {
     return (
-      <div>
+      <div id="familiagrande">
         <div className="container movil mt-5">
           <div className="row mt-5">
             <div className="col-12 col-md-6">

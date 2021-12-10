@@ -34,15 +34,15 @@ const MenuNav = () => {
                 <Nav.Link onClick={() => router.push("/")}>INICIO</Nav.Link>
               </Nav.Item>
               <NavDropdown title="¿QUIÉNES SOMOS?" id="nav-dropdown">
-                <NavDropdown.Item onClick={() => router.push("/quienes")} >
+                <NavDropdown.Item onClick={() => router.push("/quienes#nosotros")} >
                   NOSOTROS
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item onClick={() => router.push("/quienes")}>
+                <NavDropdown.Item onClick={() => router.push("/quienes#equipo")}>
                   EQUIPO
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item onClick={() => router.push("/quienes")}>
+                <NavDropdown.Item onClick={() => router.push("/quienes#familiagrande")}>
                   FAMILIA GRANDE
                 </NavDropdown.Item>
               </NavDropdown>
@@ -52,16 +52,15 @@ const MenuNav = () => {
                     drop={direction}
                     key={direction}
                     variant="secundario"
-                    href="/centros"
                     title={` CENTROS BARRIALES `}
                   >
-                    <Dropdown.Item href="#">NAZARETH</Dropdown.Item>
+                    <Dropdown.Item href="/centros#nazareth">NAZARETH</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="#">CORAZÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item href="/centros#corazondemaria">CORAZÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="#">ASUNCIÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item href="/centros#asunciondemaria">ASUNCIÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="#">CASA MUNILLA</Dropdown.Item>
+                    <Dropdown.Item href="/centros#casamunilla">CASA MUNILLA</Dropdown.Item>
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />

@@ -18,7 +18,7 @@ const AsuncionDeMaria = () => {
     }
   ];
   return (
-    <>
+    <div id="asunciondemaria">
       <CardDispositivos
         imagen={"/dispositivos/Asuncion.jpg"}
         titulo={"ASUNCIÓN DE MARÍA"}
@@ -33,7 +33,7 @@ const AsuncionDeMaria = () => {
       />
       <Testimonios testimonios={testimonios}></Testimonios>
       <ContactosIndividuales titulo="Centro Barrial Asunción de Maria" mail="hcasunciondemaria@gmail.com" linkRedes="https://www.facebook.com/hogardecristo.d.asunciondemaria" facebook="facebook.com/hogardecristo.d.asunciondemaria"></ContactosIndividuales>
-    </>
+    </div>
   );
 };
 

@@ -22,7 +22,7 @@ const CasaMunilla = () => {
     },
   ];
   return (
-    <>
+    <div id="casamunilla">
       <CardDispositivos
         imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
         titulo={"Casa Munilla"}
@@ -47,7 +47,7 @@ const CasaMunilla = () => {
                     <p className="text-contacto"><BsTelephoneFill  className="contacto-icon" />Celular: (03446) 15  358  222 (sólo por la mañana)</p>
             </div>
       </div>
-    </>
+    </div>
   );
 };
 

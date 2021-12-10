@@ -3,7 +3,7 @@ import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 
 const Equipo = () => {
     return (
-        <div>
+        <div id="equipo">
           <div className="container movil my-5">
             <div className="row mt-5">
               <div className="col-12 col-md-6">
