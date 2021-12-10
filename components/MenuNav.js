@@ -20,11 +20,11 @@ const MenuNav= () => {
                         <Nav.Link href="/">INICIO</Nav.Link>
                     </Nav.Item>
                     <NavDropdown href="/quienes" title="¿QUIÉNES SOMOS?" id="nav-dropdown">
-                        <NavDropdown.Item href="/quienes">NOSOTROS</NavDropdown.Item>
+                        <NavDropdown.Item href="/quienes_somos">NOSOTROS</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/quienes">EQUIPO</NavDropdown.Item>
+                        <NavDropdown.Item href="/quienes_somos">EQUIPO</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/quienes">FAMILIA GRANDE</NavDropdown.Item>
+                        <NavDropdown.Item href="/quienes_somos">FAMILIA GRANDE</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown href="#" title="DISPOSITIVOS" id="nav-dropdown">
                         {['end'].map((direction) => (
@@ -32,22 +32,22 @@ const MenuNav= () => {
                                 drop={direction}
                                 key={direction}
                                 variant="secundario"
-                                href="/centros"
+                                href="/centros_barriales"
                                 title={` CENTROS BARRIALES `}
                             >
-                            <Dropdown.Item href="#">NAZARETH</Dropdown.Item>
+                            <Dropdown.Item href="/dispositivo_nazareth">NAZARETH</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item href="#">CORAZÓN DE MARÍA</Dropdown.Item>
+                            <Dropdown.Item href="/dispositivo_corazon_maria">CORAZÓN DE MARÍA</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item href="#">ASUNCIÓN DE MARÍA</Dropdown.Item>
+                            <Dropdown.Item href="/dispositivo_asuncion_maria">ASUNCIÓN DE MARÍA</Dropdown.Item>
                             <Dropdown.Divider />
-                            <Dropdown.Item href="#">CASA MUNILLA</Dropdown.Item>
+                            <Dropdown.Item href="/dispositivo_casa_munilla">CASA MUNILLA</Dropdown.Item>
                             </DropdownButton>
                         ))}
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/depi">EPI</NavDropdown.Item>
+                        <NavDropdown.Item href="/dispositivo_epi">EPI</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/drefugio">REFUGIO</NavDropdown.Item>
+                        <NavDropdown.Item href="/dispositivo_refugio">REFUGIO</NavDropdown.Item>
                         <NavDropdown.Divider />
                             {['end'].map((direction) => (
                                 <DropdownButton
@@ -56,22 +56,22 @@ const MenuNav= () => {
                                     variant="secundario"
                                     title={`   BROTA    `}
                                 >
-                                <Dropdown.Item href="/dbrotaproductos">PRODUCTOS</Dropdown.Item>
+                                <Dropdown.Item href="/dispositivo_brotaproductos">PRODUCTOS</Dropdown.Item>
                                 <Dropdown.Divider />
-                                <Dropdown.Item href="/dbrotaservicios">SERVICIOS</Dropdown.Item>
+                                <Dropdown.Item href="/dispositivo_brotaservicios">SERVICIOS</Dropdown.Item>
                                 </DropdownButton>
                             ))}
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/dcasita">CASITA LIBERTAD</NavDropdown.Item>
+                        <NavDropdown.Item href="/dispositivo_casita">CASITA LIBERTAD</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown href="#" title="CÓMO COLABORAR" id="nav-dropdown">
                         <NavDropdown.Item href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true" target="_blank">DONACIÓN MONETARIA</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">SER VOLUNTARIO</NavDropdown.Item>
+                        <NavDropdown.Item href="/voluntariado">SER VOLUNTARIO</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">CONTRATAR SERVICIOS BROTA</NavDropdown.Item>
+                        <NavDropdown.Item href="/dispositivo_brotaproductos">CONTRATAR SERVICIOS BROTA</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#">COMPRAR PRODUCTOS BROTA</NavDropdown.Item>
+                        <NavDropdown.Item href="/dispositivo_brotaservicios">COMPRAR PRODUCTOS BROTA</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item>
                         <Nav.Link href="/novedades">NOVEDADES</Nav.Link>

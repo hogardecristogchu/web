@@ -54,7 +54,7 @@ const Novedades = () => {
                                 <h5 className="card-title">{post.title}</h5>
                                 <p className="card-text"> {"..." + shortenText(toText(post.content), 50, 200) + "..."}</p>
                                 <p className="text-muted">{"Publicado el " + changeDay(post.pubDate)}</p>
-                                <a href={post.guid} className="btn boton-slider mb-1">Leer más</a>
+                                <a href={post.guid} rel="noreferrer" target="_blank" className="btn boton-slider mb-1">Leer más</a>
                             </div>
                         </div>
                     </div>
