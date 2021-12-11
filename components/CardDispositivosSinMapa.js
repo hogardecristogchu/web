@@ -18,7 +18,7 @@ const CardDispositivos = ({
           <div className="col-12 col-md-6">
               {<img src={imagen} className="mt-2 img-fluid" alt={alt} />}
           </div>
-          <div className="col-12 col-md-6">
+          <div className="p-movil col-12 col-md-6">
             <div className="row title mt-2">
               <div className="line-dec-"></div>
               <h2>{titulo}</h2>
@@ -26,7 +26,7 @@ const CardDispositivos = ({
             <div className="row mb-1 mt-1">
               <p className="subtitulo-dispositivos">{subtitulo}</p>
             </div>
-            <div className="row">
+            <div className="b-movil row">
               <p>{texto} </p>
               <div>{!show && <p>{textoDos}</p>}</div>
               <button

@@ -1067,7 +1067,7 @@ a {
   }
 
   .movil-card {
-    width: 95% !important;
+    max-width: 95% !important;
     margin-right: auto;
     margin-left: auto;
   }
