@@ -3,7 +3,7 @@ import React from 'react';
 const ColegiosBrota = () => {
     return (
         <>
-        <div className="container m-6">
+        <div className="p-movil container m-6">
             <div className="row title">
                 <div className="line-dec-1"></div>
                 <h2 className="pb-3">BROTA EN INSTITUCIONES Y COLEGIOS:</h2>

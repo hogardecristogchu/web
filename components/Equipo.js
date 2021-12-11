@@ -9,7 +9,7 @@ const Equipo = () => {
               <div className="col-12 col-md-6">
                   {<img src="/dispositivos/EQUIPO.jpg" className="mt-2 img-fluid" alt="Nuestro Equipo" />}
               </div>
-              <div className="col-12 col-md-6">
+              <div className="p-movil col-12 col-md-6">
                 <div className="row title mt-2">
                   <div className="line-dec-"></div>
                   <h2>EQUIPO</h2>

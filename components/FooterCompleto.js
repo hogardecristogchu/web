@@ -1,12 +1,14 @@
 import React from 'react';
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { BsFillEnvelopeFill } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import Nav from 'react-bootstrap/Nav';
+import Link from 'next/link';
 
 const FooterCompleto= () => {
     return (
+        <>
         <div id="contacto" className="footer mt-5">
             <div className="container pt-5 pb-5">
                 <div className="row">
@@ -44,6 +46,22 @@ const FooterCompleto= () => {
                 </div>
             </div>
         </div>
+        <div className='programadoras'>
+            <div className="container pt-3 pb-1">
+                <div className="row">
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/raquel-muriega-9479491a9/?_l=es_ES"><a className="a-blanco pro-a" target="_blank">Raquel Muriega</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/lourdes-luna-web/"><a className="a-blanco pro-a" target="_blank">Lourdes Luna</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/falbericipavon/"><a className="a-blanco pro-a" target="_blank">Fernanda Alberici</a></Link></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 

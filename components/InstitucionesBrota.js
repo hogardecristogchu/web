@@ -4,7 +4,7 @@ const InstitucionesBrota = () => {
     return (
         <>
         <div className="container m-6">
-            <div className="row mt-3 mb-3">
+            <div className="p-movil row mt-3 mb-3">
                 <div className="col-12">
                     <p className="t-colegios">INSTITUCIONES Y EMPRESAS QUE CONFÍAN EN BROTA:</p>
                 </div>

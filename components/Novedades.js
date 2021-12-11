@@ -51,10 +51,10 @@ const Novedades = () => {
                         <div className="card m-3">
                             <div className="bloque-img"><img src={post.thumbnail} className="card-img-top" alt="card-image" /></div>
                             <div className="card-body">
-                                <h5 className="card-title">{post.title}</h5>
+                                <h5 className="h5-movil card-title">{post.title}</h5>
                                 <p className="card-text"> {"..." + shortenText(toText(post.content), 50, 200) + "..."}</p>
                                 <p className="text-muted">{"Publicado el " + changeDay(post.pubDate)}</p>
-                                <a href={post.guid} rel="noreferrer" target="_blank" className="btn boton-slider mb-1">Leer más</a>
+                                <a href={post.guid} rel="noreferrer" target="_blank" className="btn a-movil boton-slider mb-1">LEER MÁS</a>
                             </div>
                         </div>
                     </div>
