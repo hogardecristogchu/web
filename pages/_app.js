@@ -1,11 +1,12 @@
 import Index from './index'
-import '../styles/globals.css'
+import '../styles/globals.css';
+import Layout from "../components/Layout";
 
 function App ({Component, props}) {
     return(
-        <Index>
+        <Layout>
          <Component {...props}/>
-        </Index>
+        </Layout>
     )
 }
 

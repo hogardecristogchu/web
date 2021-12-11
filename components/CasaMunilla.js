@@ -43,6 +43,7 @@ const CasaMunilla = () => {
                 <h2 className="text-center pb-3">Contacto</h2>
             </div>
             <div className="movil-card card-contactos text-center mt-2">
+
                     <h5 className="title-contactos">Casa Munilla</h5>
                     <p className="text-contacto"><BsTelephoneFill  className="contacto-icon" />Celular: (03446) 15  358  222 (sólo por la mañana)</p>
             </div>
