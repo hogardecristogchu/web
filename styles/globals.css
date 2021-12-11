@@ -1065,4 +1065,10 @@ a {
   .programadoras p {
     text-align: left;
   }
+
+  .movil-card {
+    max-width: 95% !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
