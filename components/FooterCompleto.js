@@ -1,27 +1,30 @@
 import React from 'react';
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { BsFillEnvelopeFill } from "react-icons/bs";
-import { BsChatDotsFill} from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
 import Nav from 'react-bootstrap/Nav';
+import Link from 'next/link';
 
 const FooterCompleto= () => {
     return (
-        <div className="footer mt-5">
+        <>
+        <div id="contacto" className="footer mt-5">
             <div className="container pt-5 pb-5">
                 <div className="row">
-                    <div className="md-footer col-md-6 col-lg-3">
+                    <div className="md-footer col-12 col-md-6 col-lg-3">
                         <h5>Nuestra mision</h5>
-                        <p>Lo central en la propuesta es el sentido de pertenencia a la comunidad-familia del Centro Barrial y el cuidado y acompañamiento hacia los otros que asume cada miembro que llega a nuestro dispositivo.</p>
+                        <p>Acompañar a personas con consumo problemático de sustancias en su camino de desarrollo integral y automía.</p>
                     </div>
                     <div className="md-none col-md-6 col-lg-3 pl-2">
                         <h5>Enlaces Rápidos</h5>
-                        <Nav defaultActiveKey="/home" className="flex-column">
-                            <Nav.Link eventKey="link-0">Inicio</Nav.Link>
-                            <Nav.Link eventKey="link-1">¿Quiénes somos?</Nav.Link>
-                            <Nav.Link eventKey="link-2">Dispositivos</Nav.Link>
-                            <Nav.Link eventKey="link-3">Cómo colaborar</Nav.Link>
-                            <Nav.Link eventKey="link-4">Blog</Nav.Link>
-                            <Nav.Link eventKey="link-5">Contacto</Nav.Link>
+                        <Nav defaultActiveKey="/" className="flex-column">
+                            <Nav.Link href="/" eventKey="link-0">Inicio</Nav.Link>
+                            <Nav.Link href="/quienes_somos" eventKey="link-1">¿Quiénes somos?</Nav.Link>
+                            <Nav.Link href="/dispositivos" eventKey="link-2">Dispositivos</Nav.Link>
+                            <Nav.Link href="/como_colaborar" eventKey="link-3">Cómo colaborar</Nav.Link>
+                            <Nav.Link href="/novedades" eventKey="link-4">Novedades</Nav.Link>
+                            <Nav.Link eventKey="link-5" target="_blank" href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true">Donar Online</Nav.Link>
                         </Nav>
                     </div>
                     <div className="md-none col-md-6 col-lg-3">
@@ -31,18 +34,34 @@ const FooterCompleto= () => {
                         <img src="/footer/PQ-Corazondemaria.png" className="img-galeria" alt="log" />
                         <img src="/footer/PQ-Epi.png" className="img-galeria" alt="log" />
                     </div>
-                    <div className="md-contacto col-md-6 col-lg-3 pl-2">
+                    <div className="md-contacto col-12 col-md-6 col-lg-3 pl-2">
                         <h5>Contacto</h5>
-                        <p><BsFillTelephoneFill className="footer-icon" /><span>Numero de Telefono</span></p>
-                        <p className="ml-2">011 4560 7860</p>
-                        <p><BsChatDotsFill className="footer-icon" /><span>Whatsapp</span></p>
-                        <p className="ml-2">011 6699 7860</p>
+                        <p><BsInstagram className="footer-icon" /><span>Instagram</span></p>
+                        <p className="p-correos"><a className="a-correos" href="https://www.instagram.com/hogardecristogchu/" rel="noreferrer" target="_blank">instagram.com/hogardecristogchu</a></p>
+                        <p><BsFacebook className="footer-icon" /><span>Facebook</span></p>
+                        <p className="p-correos"><a className="a-correos" href="https://www.facebook.com/hogardecristogchu" rel="noreferrer" target="_blank">facebook.com/hogardecristogchu</a></p>
                         <p><BsFillEnvelopeFill className="footer-icon" /><span>Correo Electronico</span></p>
-                        <p className="ml-2">info@emailexample.com</p>
+                        <p className="p-correos">comunicaciongchu@hogardecristo.org.ar</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div className='programadoras'>
+            <div className="container pt-3 pb-1">
+                <div className="row">
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/raquel-muriega-9479491a9/?_l=es_ES"><a className="a-blanco pro-a" target="_blank">Raquel Muriega</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/lourdes-luna-web/"><a className="a-blanco pro-a" target="_blank">Lourdes Luna</a></Link></p>
+                    </div>
+                    <div className="md-contacto col-12 col-md-4">
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/falbericipavon/"><a className="a-blanco pro-a" target="_blank">Fernanda Alberici</a></Link></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 

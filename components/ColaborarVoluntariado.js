@@ -61,39 +61,37 @@ const ColaborarVoluntariado = () => {
 
   return (
     <div>
-      <div className="container movil my-5">
-        <h2 className="text-center">Voluntario/a</h2>
+      <div className="p-movil container movil my-5">
+        <h2 className="text-center">Voluntariado</h2>
         <p>
           Escribinos indicando qué tipo de voluntariado queres hacer: desde tu
           profesión, cuerpo a cuerpo o para alguna situación puntual (por
           ejemplo: eventos).
         </p>
-        <div className="col-12 col-md-6">
-          {
-            <img
-              src={"/dispositivos/VOLUNTARIADO.jpeg"}
-              className="img-thumbnail-center "
-              alt="voluntarios"
-            />
-          }
-        </div>
-        <Row>
-          <Col>
+        <div className="row pt-5 pb-4">
+          <div className="col-12 col-md-6">
+            {
+              <img
+                src={"/dispositivos/VOLUNTARIADO.jpeg"}
+                className="img-thumbnail-center "
+                alt="voluntarios"
+              />
+            }
+          </div>
+          <div className="col-12 col-md-6">
             <VoluntariadoIndividual
               state={stateIndividual}
               handleChange={handleChangeIndividual}
-              
+                
             />
-          </Col>
-          <div>
             <Button
               className="boton-slider"
               onClick={onClick}
             >
-              ENVIAR
+            ENVIAR
             </Button>
           </div>
-        </Row>
+        </div>
       </div>
     </div>
   );
