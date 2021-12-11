@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.solo-m {
+  display: none;
+}
+
 .programadoras {
   background-color: #00a9a2;
   color: white;
@@ -1070,5 +1074,13 @@ a {
     max-width: 95% !important;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .no-m {
+    display: none;
+  }
+
+  .solo-m {
+    display: block;
   }
 }
