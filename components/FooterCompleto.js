@@ -53,10 +53,10 @@ const FooterCompleto= () => {
                         <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/raquel-muriega-9479491a9/?_l=es_ES"><a className="a-blanco pro-a" target="_blank">Raquel Muriega</a></Link></p>
                     </div>
                     <div className="md-contacto col-12 col-md-4">
-                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/lourdes-luna-web/"><a className="a-blanco pro-a" target="_blank">Lourdes Luna</a></Link></p>
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/falbericipavon/"><a className="a-blanco pro-a" target="_blank">Fernanda Alberici</a></Link></p>
                     </div>
                     <div className="md-contacto col-12 col-md-4">
-                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/falbericipavon/"><a className="a-blanco pro-a" target="_blank">Fernanda Alberici</a></Link></p>
+                        <p className="p-correos"><BsLinkedin className="programadoras-icon" /><Link href="https://www.linkedin.com/in/lourdes-luna-web/"><a className="a-blanco pro-a" target="_blank">Lourdes Luna</a></Link></p>
                     </div>
                 </div>
             </div>
