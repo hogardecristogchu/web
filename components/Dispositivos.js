@@ -5,7 +5,7 @@ const Dispositivos = () => {
     return (
         <>
             <div className="title"><h2 className="text-center"> Dispositivos</h2></div>
-            <div className="container text-center">
+            <div className="p-movil container text-center">
                 <h3 className="mt-3">Centros Barriales</h3>
                 <p className="p-dispositivos mt-3">El centro barrial es un espacio alojador, un dispositivo comunitario de acompañamiento para la vida que recibe a personas en contextos de exclusión social.
                 El mismo funciona durante el día y ofrece una variedad de espacios que incluyen: talleres de oficios, espacios de escucha individuales, espacios terapéuticos grupales, espacios de espiritualidad, entre otros. </p>

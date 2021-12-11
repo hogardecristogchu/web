@@ -6,7 +6,7 @@ const CardsCausas = () => {
         <>
             <h2 className="text-center text-title">Nuestras principales causas</h2>
             <div className="container mt-3 d-flex flex-wrap justify-content-evenly">
-            <div className="card my-3 mx-3">
+                <div className="card my-3 mx-3">
                     <div className="card-body styles1" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Consumo problemático</h5>
                         <div className="text-center">

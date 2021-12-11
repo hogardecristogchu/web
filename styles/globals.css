@@ -6,9 +6,31 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.programadoras {
+  background-color: #00a9a2;
+  color: white;
+}
+
+.programadoras p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.programadoras-icon {
+  margin-right: 1rem;
+} 
+
 body {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+}
+
+.a-blancos a {
+  color: white !important;
+}
+
+.a-blancos a:hover {
+  color: white !important;
 }
 
 .card-img-top {
@@ -415,6 +437,14 @@ a {
   color: #00a9a2 !important;
 }
 
+.a-blanco {
+  color: rgb(216, 216, 216);
+}
+
+.a-blanco:hover {
+  color: white !important;
+}
+
 .a-blancos {
   color: white;
 }
@@ -500,7 +530,7 @@ a {
 }
 
 .h4-titulo{
-  color: #63296C !important;
+  color: #00a9a2 !important;
   background-color: #f1f1f1 !important;
   font-weight: 700;
 }
@@ -538,7 +568,7 @@ a {
 }
 
 .card-icon {
-  color: #63296C;
+  color: #00a9a2;
   margin-bottom: 2px;
   font-size: 1.2rem;
   margin-left: 10px;
@@ -667,10 +697,12 @@ a {
 
 .contacto-a {
   color: #525252;
+  font-weight: 500;
 }
 
 .contacto-a:hover {
-  color: #000000;
+  color: #ec1d5c;
+  font-weight: 500;
 }
 
 .a-correos {
@@ -820,6 +852,112 @@ a {
     margin-right: 10%;
   }
 
+  .div-movil {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-movil h2 {
+    color: #00a9a2;
+    padding-bottom: 1rem;
+    border-bottom: 0.13rem dotted rgb(183 183 183 / 45%);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-movil {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-movil h3{
+    color: #63296C;
+    padding-bottom: 1rem;
+    border-bottom: 0.13rem dotted rgb(183 183 183 / 45%);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-movil {
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h2-m {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .p-movil h2{
+    color: #eb1d5d;
+    padding-bottom: 1rem;
+    border-bottom: 0.13rem dotted rgb(183 183 183 / 45%);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h5-movil {
+    color: #63296C;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .p-movil h3{
+    color: #eb1d5d;
+    padding-bottom: 1rem;
+    border-bottom: 0.13rem dotted rgb(183 183 183 / 45%);
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-m {
+    max-width: 95% !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .tel-m {
+    display: block;
+  }
+
+  .btn-m {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-carousel >img {
+    width: 100% !important;
+    height: 40rem;
+    object-fit: cover;
+  }
+
+  .b-movil button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  .a-movil {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 1rem;
+  }
+
   .md-contacto {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-left: 10%;
@@ -880,7 +1018,7 @@ a {
   }
   
   .carousel-caption {
-    margin-top: 10%;
+    margin-top: 15% !important;
   }
   
   .card-pcausas {
@@ -897,5 +1035,34 @@ a {
   .w-100 {
     width: 100%;
     height: auto;
+  }
+
+  .line-dec {
+    display: none;
+  }
+  
+  .line-dec- {
+    display: none;
+  }
+  
+  .line-dec-1 {
+    display: none;
+  }
+
+  .line-dec-11 {
+    display: none;
+  }
+
+  .col-md-2-3 {
+    width: 50%;
+  }
+
+  .bloque-img >img {
+    max-height: 20rem;
+    object-fit: cover;
+  }
+
+  .programadoras p {
+    text-align: left;
   }
 }
