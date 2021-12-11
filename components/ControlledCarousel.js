@@ -30,8 +30,9 @@ function ControlledCarousel() {
             <img className="d-block w-100" height={645} src={image}  alt="First slide" />
           </div>
           <Carousel.Caption>
-            <h3 className="titulo-caption">HOGAR DE CRISTO GUALEGUAYCHÚ</h3>
-            <h6 className="subtitulo-caption">“RECIBIR LA VIDA COMO VIENE”</h6>
+            <h3 className="no-m titulo-caption">HOGAR DE CRISTO GUALEGUAYCHÚ</h3>
+            <h6 className="solo-m subtitulo-caption">HOGAR DE CRISTO GUALEGUAYCHÚ</h6>
+            <h6 className="no-m subtitulo-caption">“RECIBIR LA VIDA COMO VIENE”</h6>
             <p className="text-caption">“Una respuesta integral a la exclusión”</p>
             <Button className="boton-slider-1"><Link href="/quienes_somos"><a className="a-blancos">CONOCENOS</a></Link></Button>
             <Button className="boton-slider-2"><Link href="/como_colaborar"><a className="a-blancos">COLABORÁ CON NOSOTROS</a></Link></Button>
