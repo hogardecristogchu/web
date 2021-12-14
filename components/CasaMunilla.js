@@ -7,11 +7,6 @@ const CasaMunilla = () => {
   const testimonios = [
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Marcelo, 28 años",
-    },
-    {
-      testimonio:
         "Para mí Casita Munilla representa tranquilidad y poder expresar lo que siento. Además el acompañamiento que me dan, poder hablar con alguien.",
       testigo: "Paola, 41 años",
     },
