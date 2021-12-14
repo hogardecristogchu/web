@@ -32,7 +32,7 @@ const EspacioPrimeraInfancia = () => {
     <>
       <CardDispositivos
         imagen={"/dispositivos/EPI-Jesus.jpg"}
-        titulo={"JESUS NIÑO EPI"}
+        titulo={"EPI JESÚS NIÑO"}
         subtitulo={"“Poner al niño en el centro de la escena”"}
         texto={
           "Jesús Niño es un Espacio de Primera Infancia (EPI) que comenzó a dar sus primeros pasos en el Centro Barrial Corazón de María en julio de 2018 y desde noviembre de ese mismo año, comenzó a recibir a los niños en sus propias instalaciones."

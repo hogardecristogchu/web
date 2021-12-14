@@ -66,7 +66,7 @@ const CardsCausas = () => {
                         <div className="text-center">
                             <img src="/cards-icons/rf_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
-                        <p className="card-text text-center mt-3">Restablecimiento de los vínculos entre padres/madres y sus hijos o en otros vínculos familiares (hermanos, tíos, y otros).</p>
+                        <p className="card-text text-center mt-3">Restablecimiento de los vínculos entre padres/madres y sus hijos o en otros vínculos familiares.</p>
                     </div>
                 </div>
                 <div className="card my-3 mx-3">

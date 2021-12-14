@@ -64,7 +64,7 @@ const MenuNav = () => {
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
-                <NavDropdown.Item onClick={() => router.push("/depi")}>EPI</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/depi")}>EPI JESÚS NIÑO</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item onClick={() => router.push("/drefugio")}>REFUGIO</NavDropdown.Item>
                 <NavDropdown.Divider />
