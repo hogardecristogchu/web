@@ -6,7 +6,13 @@ const MenuNav = () => {
 
   return (
     <>
-      <Navbar collapseOnSelect className="fixed-top" expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect
+        id="top"
+        className="fixed-top"
+        expand="lg"
+        bg="dark"
+        variant="dark"
+      >
         <div className="container">
           <Navbar.Brand className="col-md-8 col-lg-4" href="/">
             <img
