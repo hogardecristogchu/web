@@ -847,6 +847,9 @@ a {
   width: 430px;
   height: 320px;
 }
+.footer .active, .dot:hover {
+  background-color: #000000;
+}
 
 
 .galeria-image {
