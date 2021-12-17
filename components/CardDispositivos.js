@@ -21,8 +21,8 @@ const CardDispositivos = ({
   const [mostrar, setMostrar] = useState(true);
   return (
     <div>
-      <div className="container movil my-5">
-        <div className="row mt-5">
+      <div className="container movil">
+        <div className="row">
           <div className="col-12 col-md-6">
             {<img src={imagen} className="mt-2 img-fluid" alt="voluntarios" />}
           </div>

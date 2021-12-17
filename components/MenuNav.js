@@ -1,35 +1,24 @@
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Dropdown from "react-bootstrap/Dropdown";
+import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, Dropdown} from 'react-bootstrap';
 import { useRouter } from "next/router";
 
 const MenuNav = () => {
   const router = useRouter();
 
-
   return (
     <>
-      <Navbar
-        id="top"
-        className="fixed-top"
-        expand="lg"
-        bg="dark"
-        variant="dark"
-      >
+      <Navbar collapseOnSelect className="fixed-top" expand="lg" bg="dark" variant="dark">
         <div className="container">
           <Navbar.Brand className="col-md-8 col-lg-4" href="/">
             <img
               src="/LOGO-HDC-blanco.png"
               className=""
               alt="logo"
-              style={{ width: "8rem" }}
+              style={{ width: "7.5rem" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="navbar-nav flex-fill justify-content-between align-items-center">
+            <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
               <Nav.Item>
                 <Nav.Link onClick={() => router.push("/")}>INICIO</Nav.Link>
               </Nav.Item>
@@ -54,13 +43,13 @@ const MenuNav = () => {
                     variant="secundario"
                     title={` CENTROS BARRIALES `}
                   >
-                    <Dropdown.Item href="/centros#nazareth">NAZARETH</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#nazareth")}>NAZARETH</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#corazondemaria">CORAZÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#corazondemaria")}>CORAZÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#asunciondemaria">ASUNCIÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#asunciondemaria")}>ASUNCIÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#casamunilla">CASA MUNILLA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#casamunilla")}>CASA MUNILLA</Dropdown.Item>
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
@@ -85,7 +74,7 @@ const MenuNav = () => {
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/dcasita">
+                <NavDropdown.Item onClick={() => router.push("/dcasita")}>
                   CASITA LIBERTAD
                 </NavDropdown.Item>
               </NavDropdown>

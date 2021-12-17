@@ -17,7 +17,7 @@ const CorazonDeMaria = () => {
     }
   ];
   return (
-    <div id="corazondemaria">
+    <div className="mt-10" id="corazondemaria">
       <CardDispositivos
         imagen={"/dispositivos/CorazonDeMaria.jpg"}
         titulo={"CORAZÓN DE MARÍA"}

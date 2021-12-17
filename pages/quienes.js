@@ -7,7 +7,7 @@ const QuienesSomos = () => {
      return (
         <div className="container-paginas">
             <Nosotros />
-            <Equipo/>
+            <Equipo />
             <FamiliaGrande/>
         </div>
       );

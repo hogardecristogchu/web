@@ -3,9 +3,9 @@ import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 import Link from 'next/link';
 const FamiliaGrande = () => {
     return (
-      <div id="familiagrande">
-        <div className="container movil mt-5">
-          <div className="row mt-5">
+      <div className="mt-10" id="familiagrande">
+        <div className="container movil">
+          <div className="row">
             <div className="col-12 col-md-6">
                 {<img src="/dispositivos/Familia-Grande.jpg" className="mt-2 img-fluid" alt="Familia Grande" />}
             </div>

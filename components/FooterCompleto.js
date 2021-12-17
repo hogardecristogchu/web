@@ -12,11 +12,11 @@ const FooterCompleto= () => {
         <div id="contacto" className="footer mt-5">
             <div className="container pt-5 pb-5">
                 <div className="row">
-                    <div className="md-footer col-12 col-md-6 col-lg-4">
+                    <div className="md-footer col-12 col-md-6 col-lg-3">
                         <h5>Nuestra mision</h5>
                         <p>Acompañar a personas con consumo problemático de sustancias en su camino de desarrollo integral y automía.</p>
                     </div>
-                    <div className="md-none col-12 col-md-6 col-lg-4 pl-2">
+                    <div className="md-none col-12 col-md-6 col-lg-3 pl-2">
                         <h5>Enlaces Rápidos</h5>
                         <Nav defaultActiveKey="/" className="flex-column">
                             <Nav.Link href="/" eventKey="link-0">Inicio</Nav.Link>
@@ -27,7 +27,14 @@ const FooterCompleto= () => {
                             <Nav.Link eventKey="link-5" target="_blank" href="https://donaronline.org/hogar-de-cristo-gualeguaychu/ampliando-el-hogar-de-cristo-agrandando-el-abrazo?preview=true">Donar Online</Nav.Link>
                         </Nav>
                     </div>
-                    <div className="md-contacto col-12 col-md-6 col-lg-4 pl-2">
+                     <div className="md-none col-md-6 col-lg-3">
+                        <h5>Galeria</h5>
+                        <Nav.Link className='a-galeria' href="/galeria" eventKey="link-2"><img src="/footer/PQ-Brota.png" className="img-galeria" alt="log" /></Nav.Link>
+                        <Nav.Link className='a-galeria' href="/galeria" eventKey="link-2"><img src="/footer/PQ-Nazareth.png" className="img-galeria" alt="log" /></Nav.Link>
+                        <Nav.Link className='a-galeria' href="/galeria" eventKey="link-2"><img src="/footer/PQ-Corazondemaria.png" className="img-galeria" alt="log" /></Nav.Link>
+                        <Nav.Link className='a-galeria' href="/galeria" eventKey="link-2"><img src="/footer/PQ-Epi.png" className="img-galeria" alt="log" /></Nav.Link>
+                    </div>
+                    <div className="md-contacto col-12 col-md-6 col-lg-3 pl-2">
                         <h5>Contacto</h5>
                         <p><BsInstagram className="footer-icon" /><span>Instagram</span></p>
                         <p className="p-correos"><a className="a-correos" href="https://www.instagram.com/hogardecristogchu/" rel="noreferrer" target="_blank">instagram.com/hogardecristogchu</a></p>

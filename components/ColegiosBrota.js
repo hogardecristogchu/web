@@ -14,16 +14,16 @@ const ColegiosBrota = () => {
                 <div className="col-12">
                     <p className="t-colegios">Colegios e instituciones que confiaron en Brota:</p>
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-12 col-md-3 mb-4">
                     <img src="/brota/La-salle-Villa-Malvina-.png" className="mt-2 img-colegios img-fluid" alt="Colegios" />
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-12 col-md-3 mb-4">
                     <img src="/brota/las_victorias.png" className="mt-2 img-colegios img-fluid" alt="Colegios" />
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-12 col-md-3 mb-4">
                     <img src="/brota/villa-malvina.png" className="mt-2 img-colegios img-fluid" alt="Colegios" />
                 </div>
-                <div className="col-6 col-md-3 mb-4">
+                <div className="col-12 col-md-3 mb-4">
                     <img src="/brota/sagrada_familia.png" className="mt-2 img-colegios img-fluid" alt="Colegios" />
                 </div>
             </div>

@@ -22,7 +22,7 @@ const Nazareth = () => {
     },
   ];
   return (
-    <div id="nazareth">
+    <div className="mt-10" id="nazareth">
       <CardDispositivos
         imagen={"/dispositivos/Nazareth.jpg"}
         titulo={"NAZARETH"}

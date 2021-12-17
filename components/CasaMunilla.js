@@ -17,7 +17,7 @@ const CasaMunilla = () => {
     },
   ];
   return (
-    <div id="casamunilla">
+    <div className="mt-10" id="casamunilla">
       <CardDispositivos
         imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
         titulo={"Casa Munilla"}
