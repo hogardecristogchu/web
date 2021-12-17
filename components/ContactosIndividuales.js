@@ -4,7 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 
 const ContactosIndividuales= ({titulo, mail, linkRedes, facebook}) => {
     return (
-        <div className="container mt-2 mb-5">
+        <div className="container mt-2">
             <div className="row title">
                 <h2 className="text-center pb-3">Contacto</h2>
             </div>

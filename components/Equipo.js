@@ -3,9 +3,9 @@ import CardDispositivosSinMapa from "./CardDispositivosSinMapa";
 
 const Equipo = () => {
     return (
-        <div id="equipo">
-          <div className="container movil my-5">
-            <div className="row mt-5">
+        <div className="mt-10" id="equipo">
+          <div className="container movil">
+            <div className="row">
               <div className="col-12 col-md-6">
                   {<img src="/dispositivos/EQUIPO.jpg" className="mt-2 img-fluid" alt="Nuestro Equipo" />}
               </div>

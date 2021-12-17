@@ -18,7 +18,7 @@ const AsuncionDeMaria = () => {
     }
   ];
   return (
-    <div id="asunciondemaria">
+    <div className="mt-10" id="asunciondemaria">
       <CardDispositivos
         imagen={"/dispositivos/Asuncion.jpg"}
         titulo={"ASUNCIÓN DE MARÍA"}
