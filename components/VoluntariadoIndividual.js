@@ -9,8 +9,8 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
       <Form.Group className="mb-3" controlId="formBasicEmail">
       <div className="row pb-3">
         <div className="col-12 col-sm-6">
-        <Form.Label>Nombre y Apellido</Form.Label>
-        <Form.Control
+        <Form.Label>Nombre y Apellido*</Form.Label>
+        <Form.Control required
           value={state.name}
           type="name"
           onChange={handleChange}
@@ -20,12 +20,12 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
         />
         </div>
         <div className="col-12 col-sm-6">
-        <Form.Label>Edad ( Mayor de 18 años.)</Form.Label>
-        <Form.Control
+        <Form.Label>Edad* ( Mayor de 18 años.)</Form.Label>
+        <Form.Control required
           value={state.edad}
           onChange={handleChange}
           name="edad"
-          type="age"
+          type="number"
           placeholder="Edad"
           disabled={disabled}
         />
@@ -33,8 +33,8 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
       </div>
       <div className="row pb-3">
         <div className="col-12 col-sm-6">
-          <Form.Label>Celular</Form.Label>
-          <Form.Control
+          <Form.Label>Celular*</Form.Label>
+          <Form.Control required
             value={state.celular}
             onChange={handleChange}
             name="celular"
@@ -44,8 +44,8 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
           />
         </div>
         <div className="col-12 col-sm-6">
-          <Form.Label>Email </Form.Label>
-          <Form.Control
+          <Form.Label>Email*</Form.Label>
+          <Form.Control required
             value={state.email}
             onChange={handleChange}
             name="email"
@@ -56,9 +56,9 @@ const VoluntariadoIndividual = ({state, handleChange, disabled}) => {
         </div>
       </div>
         <Form.Label>
-          ¿Qué podes ofrecernos? (tiempo, profesión, habilidad, escucha, etc.):{" "}
+          ¿Qué podes ofrecernos?* (tiempo, profesión, habilidad, escucha, etc.):{" "}
         </Form.Label>
-        <Form.Control
+        <Form.Control required
           value={state.habilidades}
           onChange={handleChange}
           name="habilidades"
