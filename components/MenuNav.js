@@ -1,17 +1,12 @@
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import Dropdown from "react-bootstrap/Dropdown";
+import { Navbar, Nav, NavItem, NavDropdown, DropdownButton, Dropdown} from 'react-bootstrap';
 import { useRouter } from "next/router";
 
 const MenuNav = () => {
   const router = useRouter();
 
-
   return (
     <>
-      <Navbar
+      <Navbar collapseOnSelect
         id="top"
         className="fixed-top"
         expand="lg"
@@ -24,17 +19,17 @@ const MenuNav = () => {
               src="/LOGO-HDC-blanco.png"
               className=""
               alt="logo"
-              style={{ width: "8rem" }}
+              style={{ width: "7.5rem" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="navbar-nav flex-fill justify-content-between align-items-center">
+            <Nav className="mr-auto navbar-nav flex-fill justify-content-between align-items-center">
               <Nav.Item>
                 <Nav.Link onClick={() => router.push("/")}>INICIO</Nav.Link>
               </Nav.Item>
               <NavDropdown title="¿QUIÉNES SOMOS?" id="nav-dropdown">
-                <NavDropdown.Item onClick={() => router.push("/quienes#nosotros")} >
+                <NavDropdown.Item onClick={() => router.push("/quienes")} >
                   NOSOTROS
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
@@ -54,19 +49,19 @@ const MenuNav = () => {
                     variant="secundario"
                     title={` CENTROS BARRIALES `}
                   >
-                    <Dropdown.Item href="/centros#nazareth">NAZARETH</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#nazareth")}>NAZARETH</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#corazondemaria">CORAZÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#corazondemaria")}>CORAZÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#asunciondemaria">ASUNCIÓN DE MARÍA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#asunciondemaria")}>ASUNCIÓN DE MARÍA</Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/centros#casamunilla">CASA MUNILLA</Dropdown.Item>
+                    <Dropdown.Item onClick={() => router.push("/centros#casamunilla")}>CASA MUNILLA</Dropdown.Item>
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/depi">EPI</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/depi")}>EPI JESÚS NIÑO</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/drefugio">REFUGIO</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/drefugio")}>REFUGIO</NavDropdown.Item>
                 <NavDropdown.Divider />
                 {["end"].map((direction) => (
                   <DropdownButton
@@ -75,17 +70,17 @@ const MenuNav = () => {
                     variant="secundario"
                     title={`   BROTA    `}
                   >
-                    <Dropdown.Item href="/dbrotaproductos">
+                    <Dropdown.Item onClick={() => router.push("/dbrotaproductos")}>
                       PRODUCTOS
                     </Dropdown.Item>
                     <Dropdown.Divider />
-                    <Dropdown.Item href="/dbrotaservicios">
+                    <Dropdown.Item onClick={() => router.push("/dbrotaservicios")}>
                       SERVICIOS
                     </Dropdown.Item>
                   </DropdownButton>
                 ))}
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/dcasita">
+                <NavDropdown.Item onClick={() => router.push("/dcasita")}>
                   CASITA LIBERTAD
                 </NavDropdown.Item>
               </NavDropdown>
@@ -97,21 +92,21 @@ const MenuNav = () => {
                   DONACIÓN MONETARIA
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">SER VOLUNTARIO</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => router.push("/voluntariado")}>SER VOLUNTARIO</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item onClick={() => router.push("/dbrotaservicios")}>
                   CONTRATAR SERVICIOS BROTA
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#">
+                <NavDropdown.Item onClick={() => router.push("/dbrotaproductos")}>
                   COMPRAR PRODUCTOS BROTA
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Item>
-                <Nav.Link href="/novedades">NOVEDADES</Nav.Link>
+                <Nav.Link onClick={() => router.push("/novedades")}>NOVEDADES</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="#">CONTACTO</Nav.Link>
+                <Nav.Link onClick={() => router.push("#contacto")}>CONTACTO</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

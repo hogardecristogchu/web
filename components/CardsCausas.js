@@ -6,7 +6,7 @@ const CardsCausas = () => {
         <>
             <h2 className="text-center text-title">Nuestras principales causas</h2>
             <div className="container mt-3 d-flex flex-wrap justify-content-evenly">
-            <div className="card my-3 mx-3">
+                <div className="card my-3 mx-3">
                     <div className="card-body styles1" style={{ width: '20rem' }}>
                         <h5 className="card-title text-center">Consumo problemático</h5>
                         <div className="text-center">
@@ -66,7 +66,7 @@ const CardsCausas = () => {
                         <div className="text-center">
                             <img src="/cards-icons/rf_b.png" className="card-img-top mt-3" alt="log" style={{ width: '7rem' }}/>
                         </div>
-                        <p className="card-text text-center mt-3">Restablecimiento de los vínculos entre padres/madres y sus hijos o en otros vínculos familiares (hermanos, tíos, y otros).</p>
+                        <p className="card-text text-center mt-3">Restablecimiento de los vínculos entre padres/madres y sus hijos o en otros vínculos familiares.</p>
                     </div>
                 </div>
                 <div className="card my-3 mx-3">

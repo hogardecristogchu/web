@@ -7,11 +7,6 @@ const CasaMunilla = () => {
   const testimonios = [
     {
       testimonio:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-      testigo: "Marcelo, 28 años",
-    },
-    {
-      testimonio:
         "Para mí Casita Munilla representa tranquilidad y poder expresar lo que siento. Además el acompañamiento que me dan, poder hablar con alguien.",
       testigo: "Paola, 41 años",
     },
@@ -22,7 +17,7 @@ const CasaMunilla = () => {
     },
   ];
   return (
-    <div id="casamunilla">
+    <div className="mt-10" id="casamunilla">
       <CardDispositivos
         imagen={"/dispositivos/CB-Casa-Munilla.jpg"}
         titulo={"Casa Munilla"}
@@ -42,7 +37,8 @@ const CasaMunilla = () => {
             <div className="row title">
                 <h2 className="text-center pb-3">Contacto</h2>
             </div>
-            <div className="card-contactos text-center mt-2">
+            <div className="movil-card card-contactos text-center mt-2">
+
                     <h5 className="title-contactos">Casa Munilla</h5>
                     <p className="text-contacto"><BsTelephoneFill  className="contacto-icon" />Celular: (03446) 15  358  222 (sólo por la mañana)</p>
             </div>

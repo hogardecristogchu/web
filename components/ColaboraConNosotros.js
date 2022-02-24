@@ -7,7 +7,7 @@ import { BsPiggyBankFill } from "react-icons/bs";
 
 const ColaboraConNosotros = () => {
     return (
-        <>
+        <div className="div-movil">
             <h2 className="text-center text-title">COLABORA CON NOSOTROS</h2>
             <p className="text-center movil mb-2">Podés colaborar con el Hogar de Cristo Gualeguaychú de distintas formas:</p>
             <div className="container">
@@ -50,7 +50,7 @@ const ColaboraConNosotros = () => {
                 </div>
             </div>
             
-        </>
+        </div>
     )
 }
 

@@ -39,7 +39,7 @@ const ElRefugio = () => {
             <div className="row title">
                 <h2 className="text-center pb-3">Contacto</h2>
             </div>
-            <div className="card-contactos text-center mt-2">
+            <div className="movil-card card-contactos text-center mt-2">
                     <h5 className="title-contactos">El Refugio</h5>
                     <p className="text-contacto"><BsTelephoneFill  className="contacto-icon" />Celular: (03446) 15 494 608</p>
             </div>

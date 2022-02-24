@@ -32,7 +32,7 @@ const EspacioPrimeraInfancia = () => {
     <>
       <CardDispositivos
         imagen={"/dispositivos/EPI-Jesus.jpg"}
-        titulo={"JESUS NIÑO EPI"}
+        titulo={"EPI JESÚS NIÑO"}
         subtitulo={"“Poner al niño en el centro de la escena”"}
         texto={
           "Jesús Niño es un Espacio de Primera Infancia (EPI) que comenzó a dar sus primeros pasos en el Centro Barrial Corazón de María en julio de 2018 y desde noviembre de ese mismo año, comenzó a recibir a los niños en sus propias instalaciones."
@@ -51,7 +51,7 @@ const EspacioPrimeraInfancia = () => {
             <div className="row title">
                 <h2 className="text-center pb-3">Contacto</h2>
             </div>
-            <div className="card-contactos text-center mt-2">
+            <div className="movil-card card-contactos text-center mt-2">
                     <h5 className="title-contactos">EPI Jesus Niño</h5>
                     <p className="text-contacto"><BsFillEnvelopeFill  className="contacto-icon" />epijesusninio@hogardecristo.org.ar</p>
                     <p className="text-contacto"><BsFacebook className="contacto-icon" /><a href="https://www.facebook.com/epijesusninio" rel="noreferrer" className="contacto-a" target="_blank">facebook.com/epijesusninio</a></p>
