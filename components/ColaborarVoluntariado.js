@@ -2,24 +2,26 @@ import React, { useState, useEffect } from "react";
 import { Button, Row, Col, Form } from "react-bootstrap";
 import VoluntariadoIndividual from "./VoluntariadoIndividual";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const ColaborarVoluntariado = () => {
   useEffect(() => {
     emailjs.init("user_bSP8bvE5FeDtxTWKZWNG6");
   }, []);
 
-  const [state, setState] = useState({ selectedOption: "" });
+  const [isFormDisabled, setIsFormDisabled] = useState(true);
 
   const [stateIndividual, setStateIndividual] = useState({
     name: "",
     edad: "",
-    city: "",
-    provincia: "",
     celular: "",
     email: "",
-    motivo: "",
     habilidades: "",
   });
+
+  useEffect(() => {
+    validationForm();
+  }, [stateIndividual]);
 
   const handleChangeIndividual = (e) => {
     const { name, value } = e.target;
@@ -29,6 +31,29 @@ const ColaborarVoluntariado = () => {
     }));
   };
 
+  const validationForm = () => {
+    let isValid = true;
+    if (stateIndividual.name.length === 0) {
+      isValid = false;
+    }
+    if (stateIndividual.edad.length === 0) {
+      isValid = false;
+    }
+    if (stateIndividual.celular.length === 0) {
+      isValid = false;
+    }
+    if (stateIndividual.email.length === 0) {
+      isValid = false;
+    }
+    if (stateIndividual.name.length === 0) {
+      isValid = false;
+    }
+    if (stateIndividual.habilidades.length === 0) {
+      isValid = false;
+    }
+
+    setIsFormDisabled(!isValid);
+  }
 
   const onClick = (e) => {
     //Envía mail con la información de ambos estados
@@ -39,19 +64,57 @@ const ColaborarVoluntariado = () => {
     let templateParamsIndividual = {
       name: `${stateIndividual.name}`,
       edad: `${stateIndividual.edad}`,
-      city: `${stateIndividual.city}`,
-      provincia: `${stateIndividual.provincia}`,
       celular: `${stateIndividual.celular}`,
       email: `${stateIndividual.email}`,
-      motivo: `${stateIndividual.motivo}`,
       habilidades: `${stateIndividual.habilidades}`,
     };
+
+    let isValid = true;
+    if (stateIndividual.name.length < 1) {
+      isValid = false;
+    }
+    if (stateIndividual.edad.length < 1) {
+      isValid = false;
+    }
+    if (stateIndividual.celular.length < 1) {
+      isValid = false;
+    }
+    if (stateIndividual.email.length < 1) {
+      isValid = false;
+    }
+    if (stateIndividual.name.length < 1) {
+      isValid = false;
+    }
+    if (stateIndividual.habilidades.length < 1) {
+      isValid = false;
+    }
+
+    if(!isValid){
+      return;
+    }
 
     emailjs
       .send("service_agvw6tb", "template_o4tmp1j", templateParamsIndividual)
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
+          Swal.fire({
+            title: "Excelente!",
+            text: "Gracias por tu mensaje. Pronto estaremos contactándote",
+            icon: "success",
+          }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+              //Borrar inputs
+              setStateIndividual({
+                name: "",
+                edad: "",
+                celular: "",
+                email: "",
+                habilidades: "",
+              });
+            }
+          });
         },
         function (err) {
           console.log("FAILED...", err);
@@ -61,7 +124,7 @@ const ColaborarVoluntariado = () => {
 
   return (
     <div>
-      <div className="container movil my-5">
+      <div className="container movil my-5" id="miForm">
         <h2 className="text-center">Voluntariado</h2>
         <p>
           Escribinos indicando qué tipo de voluntariado queres hacer: desde tu
@@ -82,13 +145,9 @@ const ColaborarVoluntariado = () => {
             <VoluntariadoIndividual
               state={stateIndividual}
               handleChange={handleChangeIndividual}
-                
             />
-            <Button
-              className="boton-slider"
-              onClick={onClick}
-            >
-            ENVIAR
+            <Button className="boton-slider" onClick={onClick} disabled={isFormDisabled}>
+              ENVIAR
             </Button>
           </div>
         </div>
